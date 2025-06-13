@@ -8,7 +8,7 @@
 
 I specialize in backend development using modern, scalable technologies:
 
-- ⚙️ C, C#
+- ⚙️ C, C#, C++
 - 🌐 .NET Core Framework
 - 🚀 Go (Golang)
 
