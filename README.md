@@ -11,9 +11,8 @@
 ---
 
 
-“Code. Learn. Repeat.”
 
-## 🧠 Languages
+##  Languages
 
 <p align="center">
   <img src="https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white" alt="C"/>
@@ -32,7 +31,6 @@
   <img src="https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=postgresql&logoColor=white" alt="SQL"/>
 </p>
 
-“Code. Learn. Repeat.”
 
 ## ⚙️ Framework
 
@@ -40,7 +38,6 @@
   <img src="https://img.shields.io/badge/ASP.NET_Core_MVC-512BD4?style=for-the-badge&logo=dot-net&logoColor=white" alt="ASP.NET Core MVC"/>
 </p>
 
-“Code. Learn. Repeat.”
 
 ## 🧰 Tools
 
@@ -50,9 +47,8 @@
   <img src="https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white" alt="Kubernetes"/>
 </p>
 
-“Code. Learn. Repeat.”
 
-## 🧑‍💻 IDEs
+##  IDEs
 
 <p align="center">
   <img src="https://img.shields.io/badge/Code::Blocks-A84F00?style=for-the-badge&logo=codeblocks&logoColor=white" alt="Code::Blocks"/>
@@ -60,7 +56,6 @@
   <img src="https://img.shields.io/badge/Visual_Studio_Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white" alt="Visual Studio Code"/>
 </p>
 
-“Code. Learn. Repeat.”
 
 ## 🗄️ Database
 
@@ -68,7 +63,6 @@
   <img src="https://img.shields.io/badge/Microsoft_SQL_Server-CC2927?style=for-the-badge&logo=microsoft-sql-server&logoColor=white" alt="Microsoft SQL Server"/>
 </p>
 
-“Code. Learn. Repeat.”
 
 ## 🌐 Social Links
 
@@ -79,7 +73,6 @@
   <a href="https://x.com/islam_joshi"><img src="https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white" alt="X (Twitter)"/></a>
 </p>
 
-“Code. Learn. Repeat.”
 
 ## 💼 Portfolio
 
@@ -88,7 +81,6 @@
   <a href="https://dribbble.com/shahedul_islam_joshi"><img src="https://img.shields.io/badge/Dribbble-EA4C89?style=for-the-badge&logo=dribbble&logoColor=white" alt="Dribbble"/></a>
 </p>
 
-“Code. Learn. Repeat.”
 
 ## ✍️ Blog
 
@@ -96,21 +88,18 @@
   <a href="https://medium.com/@shahedul_islam_joshi"><img src="https://img.shields.io/badge/Medium-12100E?style=for-the-badge&logo=medium&logoColor=white" alt="Medium"/></a>
 </p>
 
-“Code. Learn. Repeat.”
 
 ## 🎓 Education
 
 - **B.Sc. in Computer Science & Engineering** — National University, Bangladesh (2023 – Present)
 - **Uttara High School and College** — Completed JSC, SSC, HSC (Science Group). Completed both Secondary and Higher Secondary education from the same institution.
 
-“Code. Learn. Repeat.”
 
-## 🗣️ Languages I Speak
+##  Languages I Speak
 
 - English (Fluent)
 - Bangla (Native)
 
-“Code. Learn. Repeat.”
 
 ## ✨ GitHub Stats
 
@@ -122,7 +111,6 @@
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=shahedul-islam-joshi&layout=compact&theme=radical" alt="Top Languages"/>
 </p>
 
-“Code. Learn. Repeat.”
 
 ## 🏆 Profile Trophies
 
@@ -130,7 +118,6 @@
   <img src="https://github-profile-trophy.vercel.app/?username=shahedul-islam-joshi&theme=radical" alt="Shahedul Islam Joshi's GitHub Trophies"/>
 </p>
 
-“Code. Learn. Repeat.”
 
 ## 📈 Activity Graph
 
@@ -138,11 +125,9 @@
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=shahedul-islam-joshi&theme=react" alt="Shahedul Islam Joshi's Activity Graph"/>
 </p>
 
-“Code. Learn. Repeat.”
 
 
 
-“Code. Learn. Repeat.”
 
 ## Profile Views Counter
 
@@ -150,10 +135,8 @@
   <img src="https://komarev.com/ghpvc/?username=shahedul-islam-joshi&color=brightgreen" alt="Profile Views"/>
 </p>
 
-“Code. Learn. Repeat.”
 
 
-“Code. Learn. Repeat.”
 
 ## 💬 Developer Quote / Random Dev Joke
 
