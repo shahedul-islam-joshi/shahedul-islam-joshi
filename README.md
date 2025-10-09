@@ -95,7 +95,7 @@
 - **Uttara High School and College** — Completed JSC, SSC, HSC (Science Group). Completed both Secondary and Higher Secondary education from the same institution.
 
 
-##  Languages I Speak
+## 🌍 Languages I Speak
 
 - English (Fluent)
 - Bangla (Native)
