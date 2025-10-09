@@ -12,7 +12,7 @@
 
 
 
-##  Languages
+## 💡 Languages
 
 <p align="center">
   <img src="https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white" alt="C"/>
@@ -48,7 +48,7 @@
 </p>
 
 
-##  IDEs
+## 🛠️ IDEs
 
 <p align="center">
   <img src="https://img.shields.io/badge/Code::Blocks-A84F00?style=for-the-badge&logo=codeblocks&logoColor=white" alt="Code::Blocks"/>
@@ -129,7 +129,7 @@
 
 
 
-## Profile Views Counter
+## 🧮 Profile Views Counter
 
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=shahedul-islam-joshi&color=brightgreen" alt="Profile Views"/>
