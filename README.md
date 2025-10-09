@@ -1,162 +1,148 @@
-<!-- Top GIF Banner -->
+```markdown
+<!-- Animated Banner -->
 <p align="center">
-  <img src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" width="100%" />
+  <img src="https://i.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.webp" width="800" alt="Coding Animation">
 </p>
 
 <!-- Typing Animation Header -->
 <h1 align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=28&duration=3000&pause=1000&color=00F7FF&center=true&vCenter=true&width=800&lines=Hi%2C+I'm+Shahedul+Islam+Joshi;A+passionate+Software+Developer;Lover+of+Code%2C+Tech%2C+and+Creativity" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&center=true&vCenter=true&width=435&lines=Hi%2C+I'm+Joshi+👋;C%23+Developer+%7C+ASP.NET+Learner;Code.+Learn.+Repeat.">
 </h1>
 
 ---
 
-## 🎯 Basic Info
-- **Name:** Shahedul Islam Joshi  
-- **GitHub:** [shahedul-islam-joshi](https://github.com/shahedul-islam-joshi)
+### 🎯 About Me  
+🌍 I'm **Shahedul Islam Joshi**, a passionate developer currently pursuing a **B.Sc. in Computer Science & Engineering** at **National University, Bangladesh**.  
+💻 I love building clean, efficient, and scalable software systems — from backend logic to full-stack applications.  
+✨ _“Code. Learn. Repeat.”_ ✨
 
 ---
 
-## 💡 “Code. Learn. Repeat.” 💡
+### 🧠 Languages  
+![C](https://img.shields.io/badge/C-00599C?style=flat&logo=c&logoColor=white)
+![C++](https://img.shields.io/badge/C++-00599C?style=flat&logo=c%2B%2B&logoColor=white)
+![C#](https://img.shields.io/badge/C%23-239120?style=flat&logo=c-sharp&logoColor=white)
+![Go](https://img.shields.io/badge/Go-00ADD8?style=flat&logo=go&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)
+![Java](https://img.shields.io/badge/Java-007396?style=flat&logo=java&logoColor=white)
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=css3&logoColor=white)
+![React](https://img.shields.io/badge/React-20232A?style=flat&logo=react&logoColor=61DAFB)
+![Bootstrap](https://img.shields.io/badge/Bootstrap-563D7C?style=flat&logo=bootstrap&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
+![Bash](https://img.shields.io/badge/Bash-121011?style=flat&logo=gnu-bash&logoColor=white)
+![Shell Script](https://img.shields.io/badge/Shell_Script-121011?style=flat&logo=gnu-bash&logoColor=white)
+![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat&logo=microsoft-sql-server&logoColor=white)
 
 ---
 
-## 🧠 Languages
-![C](https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white)
-![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)
-![C#](https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=c-sharp&logoColor=white)
-![Go](https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
-![HTML](https://img.shields.io/badge/HTML-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![CSS](https://img.shields.io/badge/CSS-1572B6?style=for-the-badge&logo=css3&logoColor=white)
-![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-![Bootstrap](https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![Bash](https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnubash&logoColor=white)
-![Shell Script](https://img.shields.io/badge/Shell-121011?style=for-the-badge&logo=gnu-bash&logoColor=white)
-![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=postgresql&logoColor=white)
+### ⚙️ Framework  
+![.NET](https://img.shields.io/badge/ASP.NET_Core_MVC-512BD4?style=flat&logo=dotnet&logoColor=white)
 
 ---
 
-## ⚙️ Framework
-![ASP.NET Core MVC](https://img.shields.io/badge/ASP.NET_Core_MVC-512BD4?style=for-the-badge&logo=dotnet&logoColor=white)
+### 🧰 Tools & IDEs  
+![Git](https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
+![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=flat&logo=kubernetes&logoColor=white)
+![Code::Blocks](https://img.shields.io/badge/Code::Blocks-000000?style=flat&logo=codeblocks&logoColor=white)
+![Visual Studio](https://img.shields.io/badge/Visual%20Studio-5C2D91?style=flat&logo=visual-studio&logoColor=white)
+![VS Code](https://img.shields.io/badge/VS%20Code-0078d7?style=flat&logo=visual-studio-code&logoColor=white)
 
 ---
 
-## 💡 “Code. Learn. Repeat.” 💡
+### 🗄️ Database  
+![SQL Server](https://img.shields.io/badge/Microsoft_SQL_Server-CC2927?style=flat&logo=microsoft-sql-server&logoColor=white)
 
 ---
 
-## 🧰 Tools
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white)
+### 🌐 Connect With Me  
+[![Facebook](https://img.shields.io/badge/Facebook-1877F2?style=flat&logo=facebook&logoColor=white)](https://facebook.com/islam.joshiii1133)
+[![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=flat&logo=instagram&logoColor=white)](https://instagram.com/shahedul_islam_joshi)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white)](https://linkedin.com/in/shahedul-islam-joshi)
+[![X](https://img.shields.io/badge/X_(Twitter)-000000?style=flat&logo=x&logoColor=white)](https://x.com/islam_joshi)
 
 ---
 
-## 🧑‍💻 IDEs
-![Code::Blocks](https://img.shields.io/badge/Code::Blocks-0066B8?style=for-the-badge)
-![Visual Studio](https://img.shields.io/badge/Visual_Studio-5C2D91?style=for-the-badge&logo=visual-studio&logoColor=white)
-![Visual Studio Code](https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white)
+### 🎨 Portfolio  
+[![Behance](https://img.shields.io/badge/Behance-1769FF?style=flat&logo=behance&logoColor=white)](https://behance.net/shahedul_islam_joshi)
+[![Dribbble](https://img.shields.io/badge/Dribbble-EA4C89?style=flat&logo=dribbble&logoColor=white)](https://dribbble.com/shahedul_islam_joshi)
 
 ---
 
-## 🗄️ Database
-![Microsoft SQL Server](https://img.shields.io/badge/SQL_Server-CC2927?style=for-the-badge&logo=microsoft-sql-server&logoColor=white)
+### ✍️ Blog  
+[![Medium](https://img.shields.io/badge/Medium-000000?style=flat&logo=medium&logoColor=white)](https://medium.com/@shahedul_islam_joshi)
 
 ---
 
-## 💡 “Code. Learn. Repeat.” 💡
+### 🎓 Education  
+🎓 **B.Sc. in Computer Science & Engineering** — *National University, Bangladesh* (2023 – Present)  
+🏫 **Uttara High School and College** — Completed JSC, SSC, and HSC (Science Group).  
+Completed both **Secondary** and **Higher Secondary** education from the same institution.
 
 ---
 
-## 🌐 Social Links
-[![Facebook](https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white)](https://facebook.com)
-[![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://instagram.com)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com)
-[![X (Twitter)](https://img.shields.io/badge/X-000000?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com)
+### 🗣️ Languages I Speak  
+🇬🇧 English — *Fluent*  
+🇧🇩 Bangla — *Native*
 
 ---
 
-## 🎨 Portfolio
-[![Behance](https://img.shields.io/badge/Behance-1769FF?style=for-the-badge&logo=behance&logoColor=white)](https://behance.net)
-[![Dribbble](https://img.shields.io/badge/Dribbble-EA4C89?style=for-the-badge&logo=dribbble&logoColor=white)](https://dribbble.com)
-
----
-
-## ✍️ Blog
-[![Medium](https://img.shields.io/badge/Medium-12100E?style=for-the-badge&logo=medium&logoColor=white)](https://medium.com)
-
----
-
-## 🎓 Education
-- **B.Sc. in Computer Science & Engineering**  
-  _National University, Bangladesh (2023 – Present)_
-
-- **Uttara High School and College**  
-  _Completed JSC, SSC, HSC (Science Group)_  
-  _Secondary & Higher Secondary from the same institution_
-
----
-
-## 🗣️ Languages I Speak
-- 🇬🇧 **English (Fluent)**
-- 🇧🇩 **Bangla (Native)**
-
----
-
-## 💡 “Code. Learn. Repeat.” 💡
-
----
-
-## 📊 GitHub Stats & Activity
-
+### 📊 GitHub Stats  
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=shahedul-islam-joshi&show_icons=true&theme=default" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=shahedul-islam-joshi&layout=compact&theme=default" />
+  <img src="https://github-readme-stats.vercel.app/api?username=shahedul-islam-joshi&show_icons=true&theme=tokyonight&hide_border=false&include_all_commits=true&count_private=true" height="165">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=shahedul-islam-joshi&layout=compact&theme=tokyonight" height="165">
 </p>
 
 ---
 
-## 🏆 GitHub Trophies
+### 🏆 GitHub Trophies  
 <p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=shahedul-islam-joshi&theme=onestar&no-bg=true&no-frame=true" />
+  <img src="https://github-profile-trophy.vercel.app/?username=shahedul-islam-joshi&theme=gruvbox&margin-w=10&no-frame=true">
 </p>
 
 ---
 
-## 📈 Activity Graph
+### 📈 Activity Graph  
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=shahedul-islam-joshi&theme=github-compact" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=shahedul-islam-joshi&theme=tokyo-night" />
 </p>
 
 ---
 
-## 🐍 Contribution Snake
+### 🐍 Contribution Snake  
 <p align="center">
-  <img src="https://github.com/shahedul-islam-joshi/shahedul-islam-joshi/blob/output/github-contribution-grid-snake.svg" />
+  <img src="https://raw.githubusercontent.com/shahedul-islam-joshi/shahedul-islam-joshi/output/github-contribution-grid-snake.svg" alt="snake animation" />
 </p>
 
 ---
 
-## 🔢 Profile Views & Visitor Map
-
-![Profile Views](https://komarev.com/ghpvc/?username=shahedul-islam-joshi&color=blueviolet&style=for-the-badge)
-
-[![Visitor Map](https://api.visitorbadge.io/api/visitors?path=shahedul-islam-joshi&label=World+Visitors&labelColor=%23007ec6&countColor=%23ffffff&style=flat-square)](https://visitorbadge.io/status?path=shahedul-islam-joshi)
+### 🧠 Developer Quote  
+> "Any fool can write code that a computer can understand. Good programmers write code that humans can understand." — *Martin Fowler*
 
 ---
 
-## 💬 Developer Quote / Dev Joke
-
-<!-- Dynamic Quote or Joke -->
-![Joke](https://readme-jokes.vercel.app/api?hideBorder&bgColor=%23fefefe&qColor=%2300a3e0&aColor=%231f1f1f&codeColor=%2300a3e0)
+### 😂 Random Dev Joke  
+![Jokes Card](https://readme-jokes.vercel.app/api?hideBorder&theme=tokyonight)
 
 ---
 
-## 💡 “Code. Learn. Repeat.” 💡
+### 🌍 Visitor Map  
+![Visitor Map](https://visitcount.itsvg.in/api?id=shahedul-islam-joshi&icon=2&color=0)
 
 ---
 
-## 📝 Signature
+### 👀 Profile Views  
+![Profile Views](https://komarev.com/ghpvc/?username=shahedul-islam-joshi&style=flat-square&color=blue)
 
+---
+
+### ✨ _“Code. Learn. Repeat.”_ ✨
+
+---
+
+### 💬 Final Note  
+> “Keep learning, keep building, and never stop improving!”
+
+---
+```
