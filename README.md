@@ -10,7 +10,7 @@
 
 ---
 <p align="center">
-  <img src="./matrix-rain.svg" alt="Matrix Rain Animation" width="75%"/>
+  <img src="./matrix-rain.svg" alt="Matrix Rain Animation" width="100%"/>
 </p>
 
 
