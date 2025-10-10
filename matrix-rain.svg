@@ -1,37 +1,77 @@
-// This is a conceptual example and not a complete working code.
-const svgContainer = document.getElementById('matrix-rain-svg');
-const containerWidth = svgContainer.clientWidth;
-const containerHeight = svgContainer.clientHeight;
-
-const charWidth = 20;
-const charHeight = 30;
-const numColumns = Math.floor(containerWidth / charWidth);
-
-// Array to store the current row for each column
-const columnTails = new Array(numColumns).fill(0);
-
-function animate() {
-  // Clear the SVG
-  svgContainer.innerHTML = '';
-
-  for (let i = 0; i < numColumns; i++) {
-    for (let j = 0; j < 37; j++) { // Example height
-      // Randomly draw a character
-      const x = i * charWidth;
-      const y = (columnTails[i] + j) % containerHeight;
-
-      // Create an SVG text element
-      const text = document.createElementNS('http://www.w3.org/2000/svg', 'text');
-      text.setAttribute('x', x);
-      text.setAttribute('y', y);
-      text.textContent = String.fromCharCode(65 + Math.floor(Math.random() * 26)); // Random uppercase letter
-      svgContainer.appendChild(text);
-    }
-    // Move the tail of the column down
-    columnTails[i] = (columnTails[i] + 1) % containerHeight;
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Matrix Rain</title>
+<style>
+  html, body {
+    margin: 0;
+    height: 100%;
+    background: black;
+    overflow: hidden;
   }
+  canvas {
+    display: block;
+  }
+</style>
+</head>
+<body>
+<canvas id="matrix"></canvas>
 
-  requestAnimationFrame(animate);
+<script>
+// === Matrix Rain Effect ===
+const canvas = document.getElementById('matrix');
+const ctx = canvas.getContext('2d');
+
+// full-screen canvas
+canvas.width  = window.innerWidth;
+canvas.height = window.innerHeight;
+
+// characters used (binary)
+const characters = '01';
+
+// convert string to array
+const chars = characters.split('');
+
+// font size and number of columns
+const fontSize = 16;
+const columns = canvas.width / fontSize;
+
+// y-position for each column
+const drops = Array(Math.floor(columns)).fill(1);
+
+// draw loop
+function draw() {
+  // translucent background for trail effect
+  ctx.fillStyle = 'rgba(0, 0, 0, 0.05)';
+  ctx.fillRect(0, 0, canvas.width, canvas.height);
+
+  // text style
+  ctx.fillStyle = '#00ff66'; // neon green
+  ctx.font = fontSize + 'px monospace';
+
+  // draw characters
+  for (let i = 0; i < drops.length; i++) {
+    const text = chars[Math.floor(Math.random() * chars.length)];
+    ctx.fillText(text, i * fontSize, drops[i] * fontSize);
+
+    // send drop back to top randomly after it crosses screen
+    if (drops[i] * fontSize > canvas.height && Math.random() > 0.975) {
+      drops[i] = 0;
+    }
+    drops[i]++;
+  }
 }
 
-animate();
+// animate at ~30fps
+setInterval(draw, 35);
+
+// handle window resize
+window.addEventListener('resize', () => {
+  canvas.width  = window.innerWidth;
+  canvas.height = window.innerHeight;
+});
+</script>
+</body>
+</html>
