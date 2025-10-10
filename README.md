@@ -10,7 +10,9 @@
 
 ---
 
-
+<p align="center">
+  <img src="https://raw.githubusercontent.com/shahedul-islam-joshi/shahedul-islam-joshi/main/binary-animation.svg" alt="Binary Animation" />
+</p>
 
 ## 💡 Languages
 
