@@ -10,9 +10,6 @@
 
 ---
 
-<p align="center">
-  <img src="https://i.ibb.co/XbF0zK8/matrix-rain.gif" alt="Matrix Animation" width="800"/>
-</p>
 
 ## 💡 Languages
 
