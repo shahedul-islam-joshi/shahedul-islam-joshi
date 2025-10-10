@@ -2,7 +2,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="800" height="200" viewBox="0 0 800 200">
   <rect width="100%" height="100%" fill="black"/>
 
-  <!-- Mask for fade effect -->
+  <!-- Fading mask -->
   <defs>
     <linearGradient id="fade" gradientTransform="rotate(90)">
       <stop offset="0%" stop-color="white" stop-opacity="0"/>
@@ -13,20 +13,48 @@
     </mask>
   </defs>
 
-  <!-- Group for falling binary -->
+  <!-- Reusable binary stream pattern -->
   <g fill="#00ff66" font-family="monospace" font-size="18" mask="url(#mask)">
+    <!-- Stream 1 -->
     <g>
-      <text x="10" y="20">0101010010101100101010</text>
-      <text x="60" y="40">1001010010101100101010</text>
-      <text x="120" y="60">0100110110100101010100</text>
-      <text x="180" y="80">1010100101010010101100</text>
-      <text x="240" y="100">0100101101010100110101</text>
-      <text x="300" y="120">1010100110100101010110</text>
-      <text x="360" y="140">0101010010101100101010</text>
+      <text x="50" y="0">0101010101010101010101</text>
+      <animateTransform attributeName="transform" type="translate" from="0 -200" to="0 200" dur="4s" repeatCount="indefinite"/>
+    </g>
 
-      <!-- Animate vertical movement -->
-      <animateTransform attributeName="transform" type="translate"
-        from="0 -200" to="0 200" dur="4s" repeatCount="indefinite" />
+    <!-- Stream 2 -->
+    <g>
+      <text x="150" y="0">1010010110100101101010</text>
+      <animateTransform attributeName="transform" type="translate" from="0 -200" to="0 200" dur="5s" repeatCount="indefinite"/>
+    </g>
+
+    <!-- Stream 3 -->
+    <g>
+      <text x="250" y="0">0101101001011010010101</text>
+      <animateTransform attributeName="transform" type="translate" from="0 -200" to="0 200" dur="3.5s" repeatCount="indefinite"/>
+    </g>
+
+    <!-- Stream 4 -->
+    <g>
+      <text x="350" y="0">1100101010010110100101</text>
+      <animateTransform attributeName="transform" type="translate" from="0 -200" to="0 200" dur="6s" repeatCount="indefinite"/>
+    </g>
+
+    <!-- Stream 5 -->
+    <g>
+      <text x="450" y="0">0010110100101011010010</text>
+      <animateTransform attributeName="transform" type="translate" from="0 -200" to="0 200" dur="4.5s" repeatCount="indefinite"/>
+    </g>
+
+    <!-- Stream 6 -->
+    <g>
+      <text x="550" y="0">0101010100101011010101</text>
+      <animateTransform attributeName="transform" type="translate" from="0 -200" to="0 200" dur="5.5s" repeatCount="indefinite"/>
+    </g>
+
+    <!-- Stream 7 -->
+    <g>
+      <text x="650" y="0">1010010101011010010101</text>
+      <animateTransform attributeName="transform" type="translate" from="0 -200" to="0 200" dur="3s" repeatCount="indefinite"/>
     </g>
   </g>
 </svg>
