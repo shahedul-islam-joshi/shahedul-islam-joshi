@@ -150,3 +150,17 @@
   <i>"Keep learning, keep building, and never stop improving!"</i>
 </p>
 
+<div class="binary" aria-hidden="true">
+  <span class="bit bit0">0</span>
+  <span class="bit bit1">1</span>
+</div>
+
+<style>
+.binary { font-family: monospace; font-size: 36px; width: 2ch; height: 1em; position: relative; }
+.bit { position: absolute; left: 0; top: 0; transition: opacity 0.1s ease-in-out; }
+.bit0 { color: #00ff9f; animation: blink0 1s infinite; }
+.bit1 { color: #ff6b6b; animation: blink1 1s infinite; }
+
+@keyframes blink0 { 0%{opacity:1} 50%{opacity:0} 100%{opacity:1} }
+@keyframes blink1 { 0%{opacity:0} 50%{opacity:1} 100%{opacity:0} }
+</style>
