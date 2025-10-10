@@ -1,60 +1,37 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" width="800" height="200" viewBox="0 0 800 200">
-  <rect width="100%" height="100%" fill="black"/>
+// This is a conceptual example and not a complete working code.
+const svgContainer = document.getElementById('matrix-rain-svg');
+const containerWidth = svgContainer.clientWidth;
+const containerHeight = svgContainer.clientHeight;
 
-  <!-- Fading mask -->
-  <defs>
-    <linearGradient id="fade" gradientTransform="rotate(90)">
-      <stop offset="0%" stop-color="white" stop-opacity="0"/>
-      <stop offset="100%" stop-color="white" stop-opacity="1"/>
-    </linearGradient>
-    <mask id="mask">
-      <rect width="100%" height="100%" fill="url(#fade)"/>
-    </mask>
-  </defs>
+const charWidth = 20;
+const charHeight = 30;
+const numColumns = Math.floor(containerWidth / charWidth);
 
-  <!-- Reusable binary stream pattern -->
-  <g fill="#00ff66" font-family="monospace" font-size="18" mask="url(#mask)">
-    <!-- Stream 1 -->
-    <g>
-      <text x="50" y="0">0101010101010101010101</text>
-      <animateTransform attributeName="transform" type="translate" from="0 -200" to="0 200" dur="4s" repeatCount="indefinite"/>
-    </g>
+// Array to store the current row for each column
+const columnTails = new Array(numColumns).fill(0);
 
-    <!-- Stream 2 -->
-    <g>
-      <text x="150" y="0">1010010110100101101010</text>
-      <animateTransform attributeName="transform" type="translate" from="0 -200" to="0 200" dur="5s" repeatCount="indefinite"/>
-    </g>
+function animate() {
+  // Clear the SVG
+  svgContainer.innerHTML = '';
 
-    <!-- Stream 3 -->
-    <g>
-      <text x="250" y="0">0101101001011010010101</text>
-      <animateTransform attributeName="transform" type="translate" from="0 -200" to="0 200" dur="3.5s" repeatCount="indefinite"/>
-    </g>
+  for (let i = 0; i < numColumns; i++) {
+    for (let j = 0; j < 37; j++) { // Example height
+      // Randomly draw a character
+      const x = i * charWidth;
+      const y = (columnTails[i] + j) % containerHeight;
 
-    <!-- Stream 4 -->
-    <g>
-      <text x="350" y="0">1100101010010110100101</text>
-      <animateTransform attributeName="transform" type="translate" from="0 -200" to="0 200" dur="6s" repeatCount="indefinite"/>
-    </g>
+      // Create an SVG text element
+      const text = document.createElementNS('http://www.w3.org/2000/svg', 'text');
+      text.setAttribute('x', x);
+      text.setAttribute('y', y);
+      text.textContent = String.fromCharCode(65 + Math.floor(Math.random() * 26)); // Random uppercase letter
+      svgContainer.appendChild(text);
+    }
+    // Move the tail of the column down
+    columnTails[i] = (columnTails[i] + 1) % containerHeight;
+  }
 
-    <!-- Stream 5 -->
-    <g>
-      <text x="450" y="0">0010110100101011010010</text>
-      <animateTransform attributeName="transform" type="translate" from="0 -200" to="0 200" dur="4.5s" repeatCount="indefinite"/>
-    </g>
+  requestAnimationFrame(animate);
+}
 
-    <!-- Stream 6 -->
-    <g>
-      <text x="550" y="0">0101010100101011010101</text>
-      <animateTransform attributeName="transform" type="translate" from="0 -200" to="0 200" dur="5.5s" repeatCount="indefinite"/>
-    </g>
-
-    <!-- Stream 7 -->
-    <g>
-      <text x="650" y="0">1010010101011010010101</text>
-      <animateTransform attributeName="transform" type="translate" from="0 -200" to="0 200" dur="3s" repeatCount="indefinite"/>
-    </g>
-  </g>
-</svg>
+animate();
