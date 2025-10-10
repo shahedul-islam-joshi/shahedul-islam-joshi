@@ -10,8 +10,9 @@
 
 ---
 <p align="center">
-  <img src="https://raw.githubusercontent.com/shahedul-islam-joshi/shahedul-islam-joshi/main/matrix-rain.svg" alt="Matrix Rain Animation" />
+  <img src="./matrix-rain.svg" alt="Matrix Rain Animation" width="75%"/>
 </p>
+
 
 ## 💡 Languages
 
