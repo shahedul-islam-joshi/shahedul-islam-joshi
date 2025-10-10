@@ -1,156 +1,432 @@
-<svg width="100%" height="100%" viewBox="0 0 1000 800" xmlns="http://www.w3.org/2000/svg" style="background-color:#000000;">
-    <defs>
-        <filter id="matrixGlowGreen">
-            <feGaussianBlur in="SourceGraphic" stdDeviation="1" result="blur"/>
-            <feColorMatrix in="blur" mode="matrix" values="0 1 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 5 -1" result="glow"/>
-            <feComposite in="SourceGraphic" in2="glow" operator="over"/>
-        </filter>
-        <filter id="matrixGlowRed">
-            <feGaussianBlur in="SourceGraphic" stdDeviation="1" result="blur"/>
-            <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 0 0 5 -1" result="glow"/>
-            <feComposite in="SourceGraphic" in2="glow" operator="over"/>
-        </filter>
-        
-        <symbol id="streamDeepGreen">
-            <text text-anchor="middle" dominant-baseline="hanging" fill="#003300" font-family="monospace" font-size="12" opacity="0.4">
-                010110100110101010011010110101001101010101001010~!@#$%^&*()_+{}[]:;"'<>,./?
-            </text>
-        </symbol>
-        
-        <symbol id="streamMidGreen">
-            <text text-anchor="middle" dominant-baseline="hanging" fill="#006600" font-family="monospace" font-size="16" opacity="0.6">
-                10110101001011010100101010011010110101001011010ABCDEFGHIJKLM!@#$^*()_+-=
-            </text>
-        </symbol>
-        
-        <symbol id="streamBrightGreen">
-             <text text-anchor="middle" dominant-baseline="hanging" fill="#33ff33" font-family="monospace" font-size="20" filter="url(#matrixGlowGreen)">
-                011010110100110101001101010011010101101010010abcdefghij!@#$^&*()_+
-            </text>
-        </symbol>
+/*
+  Matrix code rain
+  Demo write up here: http://neilcarpenter.com/labs/matrix-rain
+  Uses matrix font: http://www.dafont.com/matrix-code-nfi.font
+  and stats.js: https://github.com/mrdoob/stats.js/
+  If FPS is super low, try making browser window narrower - crap, I know, will work on it!
+*/
 
-        <symbol id="streamDeepRed">
-            <text text-anchor="middle" dominant-baseline="hanging" fill="#330000" font-family="monospace" font-size="13" opacity="0.3">
-                100110101010011010110101001101010100101001011010100101101010010!@#$^*()_+-=
-            </text>
-        </symbol>
 
-        <symbol id="streamMidRed">
-            <text text-anchor="middle" dominant-baseline="hanging" fill="#660000" font-family="monospace" font-size="17" opacity="0.5">
-                011010110100110101001101010011010101101010010abcdefghij!@#$^&*()_+
-            </text>
-        </symbol>
-        
-        <symbol id="streamBrightRed">
-             <text text-anchor="middle" dominant-baseline="hanging" fill="#ff3333" font-family="monospace" font-size="21" filter="url(#matrixGlowRed)">
-                011010110100110101001101010011010101101010010abcdefghij!@#$^&*()_+
-            </text>
-        </symbol>
-    </defs>
+// http://paulirish.com/2011/requestanimationframe-for-smart-animating/
+// http://my.opera.com/emoller/blog/2011/12/20/requestanimationframe-for-smart-er-animating
+ 
+// requestAnimationFrame polyfill by Erik MÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¶ller
+// fixes from Paul Irish and Tino Zijdel
+ 
+(function() {
+    var lastTime = 0;
+    var vendors = ['ms', 'moz', 'webkit', 'o'];
+    for(var x = 0; x < vendors.length && !window.requestAnimationFrame; ++x) {
+        window.requestAnimationFrame = window[vendors[x]+'RequestAnimationFrame'];
+        window.cancelAnimationFrame = window[vendors[x]+'CancelAnimationFrame']
+                                   || window[vendors[x]+'CancelRequestAnimationFrame'];
+    }
+ 
+    if (!window.requestAnimationFrame)
+        window.requestAnimationFrame = function(callback, element) {
+            var currTime = new Date().getTime();
+            var timeToCall = Math.max(0, 16 - (currTime - lastTime));
+            var id = window.setTimeout(function() { callback(currTime + timeToCall); },
+              timeToCall);
+            lastTime = currTime + timeToCall;
+            return id;
+        };
+ 
+    if (!window.cancelAnimationFrame)
+        window.cancelAnimationFrame = function(id) {
+            clearTimeout(id);
+        };
+}());
 
-    <use href="#streamDeepGreen" x="20"><animate attributeName="y" from="-800" to="800" dur="25s" begin="-15s" repeatCount="indefinite"/></use>
-    <use href="#streamDeepGreen" x="60"><animate attributeName="y" from="-800" to="800" dur="22s" begin="-2s" repeatCount="indefinite"/></use>
-    <use href="#streamDeepGreen" x="100"><animate attributeName="y" from="-1200" to="800" dur="28s" begin="-18s" repeatCount="indefinite"/></use>
-    <use href="#streamDeepGreen" x="140"><animate attributeName="y" from="-900" to="800" dur="26s" begin="-5s" repeatCount="indefinite"/></use>
-    <use href="#streamDeepGreen" x="180"><animate attributeName="y" from="-800" to="800" dur="23s" begin="-11s" repeatCount="indefinite"/></use>
-    <use href="#streamDeepGreen" x="220"><animate attributeName="y" from="-1100" to="800" dur="21s" begin="-24s" repeatCount="indefinite"/></use>
-    <use href="#streamDeepGreen" x="260"><animate attributeName="y" from="-800" to="800" dur="24s" begin="-9s" repeatCount="indefinite"/></use>
-    <use href="#streamDeepGreen" x="300"><animate attributeName="y" from="-800" to="800" dur="27s" begin="-1s" repeatCount="indefinite"/></use>
-    <use href="#streamDeepGreen" x="340"><animate attributeName="y" from="-1000" to="800" dur="22s" begin="-13s" repeatCount="indefinite"/></use>
-    <use href="#streamDeepGreen" x="380"><animate attributeName="y" from="-800" to="800" dur="25s" begin="-21s" repeatCount="indefinite"/></use>
-    <use href="#streamDeepGreen" x="420"><animate attributeName="y" from="-950" to="800" dur="27s" begin="-4s" repeatCount="indefinite"/></use>
-    <use href="#streamDeepGreen" x="460"><animate attributeName="y" from="-800" to="800" dur="23s" begin="-17s" repeatCount="indefinite"/></use>
-    <use href="#streamDeepGreen" x="500"><animate attributeName="y" from="-800" to="800" dur="21s" begin="-8s" repeatCount="indefinite"/></use>
-    <use href="#streamDeepGreen" x="540"><animate attributeName="y" from="-1150" to="800" dur="26s" begin="-19s" repeatCount="indefinite"/></use>
-    <use href="#streamDeepGreen" x="580"><animate attributeName="y" from="-800" to="800" dur="28s" begin="-3s" repeatCount="indefinite"/></use>
-    <use href="#streamDeepGreen" x="620"><animate attributeName="y" from="-800" to="800" dur="24s" begin="-10s" repeatCount="indefinite"/></use>
-    <use href="#streamDeepGreen" x="660"><animate attributeName="y" from="-900" to="800" dur="22s" begin="-16s" repeatCount="indefinite"/></use>
-    <use href="#streamDeepGreen" x="700"><animate attributeName="y" from="-800" to="800" dur="26s" begin="-22s" repeatCount="indefinite"/></use>
-    <use href="#streamDeepGreen" x="740"><animate attributeName="y" from="-800" to="800" dur="23s" begin="-6s" repeatCount="indefinite"/></use>
-    <use href="#streamDeepGreen" x="780"><animate attributeName="y" from="-1050" to="800" dur="27s" begin="-12s" repeatCount="indefinite"/></use>
-    <use href="#streamDeepGreen" x="820"><animate attributeName="y" from="-800" to="800" dur="25s" begin="-20s" repeatCount="indefinite"/></use>
-    <use href="#streamDeepGreen" x="860"><animate attributeName="y" from="-800" to="800" dur="22s" begin="-7s" repeatCount="indefinite"/></use>
-    <use href="#streamDeepGreen" x="900"><animate attributeName="y" from="-1250" to="800" dur="28s" begin="-14s" repeatCount="indefinite"/></use>
-    <use href="#streamDeepGreen" x="940"><animate attributeName="y" from="-850" to="800" dur="24s" begin="-23s" repeatCount="indefinite"/></use>
-    <use href="#streamDeepGreen" x="980"><animate attributeName="y" from="-800" to="800" dur="26s" begin="-0s" repeatCount="indefinite"/></use>
+// stats
+var stats = new Stats();
+stats.setMode(0);
+stats.domElement.style.position = 'absolute';
+stats.domElement.style.left = '0px';
+stats.domElement.style.top = '0px';
+document.body.appendChild( stats.domElement );
 
-    <use href="#streamMidGreen" x="40"><animate attributeName="y" from="-800" to="800" dur="17s" begin="-10s" repeatCount="indefinite"/></use>
-    <use href="#streamMidGreen" x="120"><animate attributeName="y" from="-800" to="800" dur="14s" begin="-3s" repeatCount="indefinite"/></use>
-    <use href="#streamMidGreen" x="200"><animate attributeName="y" from="-1000" to="800" dur="18s" begin="-13s" repeatCount="indefinite"/></use>
-    <use href="#streamMidGreen" x="280"><animate attributeName="y" from="-800" to="800" dur="15s" begin="-1s" repeatCount="indefinite"/></use>
-    <use href="#streamMidGreen" x="360"><animate attributeName="y" from="-900" to="800" dur="16s" begin="-8s" repeatCount="indefinite"/></use>
-    <use href="#streamMidGreen" x="440"><animate attributeName="y" from="-800" to="800" dur="13s" begin="-15s" repeatCount="indefinite"/></use>
-    <use href="#streamMidGreen" x="520"><animate attributeName="y" from="-1100" to="800" dur="17s" begin="-5s" repeatCount="indefinite"/></use>
-    <use href="#streamMidGreen" x="600"><animate attributeName="y" from="-800" to="800" dur="15s" begin="-11s" repeatCount="indefinite"/></use>
-    <use href="#streamMidGreen" x="680"><animate attributeName="y" from="-800" to="800" dur="18s" begin="-2s" repeatCount="indefinite"/></use>
-    <use href="#streamMidGreen" x="760"><animate attributeName="y" from="-950" to="800" dur="14s" begin="-14s" repeatCount="indefinite"/></use>
-    <use href="#streamMidGreen" x="840"><animate attributeName="y" from="-800" to="800" dur="16s" begin="-6s" repeatCount="indefinite"/></use>
-    <use href="#streamMidGreen" x="920"><animate attributeName="y" from="-1050" to="800" dur="13s" begin="-12s" repeatCount="indefinite"/></use>
-    <use href="#streamMidGreen" x="960"><animate attributeName="y" from="-800" to="800" dur="17s" begin="-4s" repeatCount="indefinite"/></use>
-    
-    <use href="#streamBrightGreen" x="80"><animate attributeName="y" from="-800" to="800" dur="11s" begin="-7s" repeatCount="indefinite"/></use>
-    <use href="#streamBrightGreen" x="160"><animate attributeName="y" from="-900" to="800" dur="9s" begin="-4s" repeatCount="indefinite"/></use>
-    <use href="#streamBrightGreen" x="240"><animate attributeName="y" from="-800" to="800" dur="12s" begin="-1s" repeatCount="indefinite"/></use>
-    <use href="#streamBrightGreen" x="320"><animate attributeName="y" from="-800" to="800" dur="10s" begin="-9s" repeatCount="indefinite"/></use>
-    <use href="#streamBrightGreen" x="400"><animate attributeName="y" from="-1000" to="800" dur="8s" begin="-5s" repeatCount="indefinite"/></use>
-    <use href="#streamBrightGreen" x="480"><animate attributeName="y" from="-800" to="800" dur="11s" begin="-2s" repeatCount="indefinite"/></use>
-    <use href="#streamBrightGreen" x="560"><animate attributeName="y" from="-850" to="800" dur="9s" begin="-8s" repeatCount="indefinite"/></use>
-    <use href="#streamBrightGreen" x="640"><animate attributeName="y" from="-800" to="800" dur="12s" begin="-0s" repeatCount="indefinite"/></use>
-    <use href="#streamBrightGreen" x="720"><animate attributeName="y" from="-950" to="800" dur="10s" begin="-6s" repeatCount="indefinite"/></use>
-    <use href="#streamBrightGreen" x="800"><animate attributeName="y" from="-800" to="800" dur="8s" begin="-3s" repeatCount="indefinite"/></use>
-    <use href="#streamBrightGreen" x="880"><animate attributeName="y" from="-1100" to="800" dur="12s" begin="-10s" repeatCount="indefinite"/></use>
 
-    <use href="#streamDeepRed" x="10"><animate attributeName="y" from="-700" to="800" dur="30s" begin="-18s" repeatCount="indefinite"/></use>
-    <use href="#streamDeepRed" x="50"><animate attributeName="y" from="-900" to="800" dur="27s" begin="-5s" repeatCount="indefinite"/></use>
-    <use href="#streamDeepRed" x="90"><animate attributeName="y" from="-800" to="800" dur="32s" begin="-22s" repeatCount="indefinite"/></use>
-    <use href="#streamDeepRed" x="130"><animate attributeName="y" from="-1000" to="800" dur="28s" begin="-8s" repeatCount="indefinite"/></use>
-    <use href="#streamDeepRed" x="170"><animate attributeName="y" from="-800" to="800" dur="31s" begin="-14s" repeatCount="indefinite"/></use>
-    <use href="#streamDeepRed" x="210"><animate attributeName="y" from="-950" to="800" dur="29s" begin="-1s" repeatCount="indefinite"/></use>
-    <use href="#streamDeepRed" x="250"><animate attributeName="y" from="-800" to="800" dur="33s" begin="-19s" repeatCount="indefinite"/></use>
-    <use href="#streamDeepRed" x="290"><animate attributeName="y" from="-1100" to="800" dur="26s" begin="-6s" repeatCount="indefinite"/></use>
-    <use href="#streamDeepRed" x="330"><animate attributeName="y" from="-800" to="800" dur="29s" begin="-10s" repeatCount="indefinite"/></use>
-    <use href="#streamDeepRed" x="370"><animate attributeName="y" from="-850" to="800" dur="30s" begin="-20s" repeatCount="indefinite"/></use>
-    <use href="#streamDeepRed" x="410"><animate attributeName="y" from="-800" to="800" dur="28s" begin="-3s" repeatCount="indefinite"/></use>
-    <use href="#streamDeepRed" x="450"><animate attributeName="y" from="-1200" to="800" dur="32s" begin="-16s" repeatCount="indefinite"/></use>
-    <use href="#streamDeepRed" x="490"><animate attributeName="y" from="-800" to="800" dur="27s" begin="-9s" repeatCount="indefinite"/></use>
-    <use href="#streamDeepRed" x="530"><animate attributeName="y" from="-1000" to="800" dur="30s" begin="-13s" repeatCount="indefinite"/></use>
-    <use href="#streamDeepRed" x="570"><animate attributeName="y" from="-800" to="800" dur="28s" begin="-23s" repeatCount="indefinite"/></use>
-    <use href="#streamDeepRed" x="610"><animate attributeName="y" from="-900" to="800" dur="31s" begin="-2s" repeatCount="indefinite"/></use>
-    <use href="#streamDeepRed" x="650"><animate attributeName="y" from="-800" to="800" dur="29s" begin="-17s" repeatCount="indefinite"/></use>
-    <use href="#streamDeepRed" x="690"><animate attributeName="y" from="-1150" to="800" dur="26s" begin="-4s" repeatCount="indefinite"/></use>
-    <use href="#streamDeepRed" x="730"><animate attributeName="y" from="-800" to="800" dur="32s" begin="-11s" repeatCount="indefinite"/></use>
-    <use href="#streamDeepRed" x="770"><animate attributeName="y" from="-800" to="800" dur="27s" begin="-15s" repeatCount="indefinite"/></use>
-    <use href="#streamDeepRed" x="810"><animate attributeName="y" from="-1050" to="800" dur="30s" begin="-21s" repeatCount="indefinite"/></use>
-    <use href="#streamDeepRed" x="850"><animate attributeName="y" from="-800" to="800" dur="28s" begin="-7s" repeatCount="indefinite"/></use>
-    <use href="#streamDeepRed" x="890"><animate attributeName="y" from="-950" to="800" dur="31s" begin="-12s" repeatCount="indefinite"/></use>
-    <use href="#streamDeepRed" x="930"><animate attributeName="y" from="-800" to="800" dur="26s" begin="-24s" repeatCount="indefinite"/></use>
-    <use href="#streamDeepRed" x="970"><animate attributeName="y" from="-1000" to="800" dur="29s" begin="-0s" repeatCount="indefinite"/></use>
+var M = {
 
-    <use href="#streamMidRed" x="30"><animate attributeName="y" from="-800" to="800" dur="20s" begin="-13s" repeatCount="indefinite"/></use>
-    <use href="#streamMidRed" x="110"><animate attributeName="y" from="-900" to="800" dur="18s" begin="-6s" repeatCount="indefinite"/></use>
-    <use href="#streamMidRed" x="190"><animate attributeName="y" from="-800" to="800" dur="22s" begin="-19s" repeatCount="indefinite"/></use>
-    <use href="#streamMidRed" x="270"><animate attributeName="y" from="-1000" to="800" dur="19s" begin="-9s" repeatCount="indefinite"/></use>
-    <use href="#streamMidRed" x="350"><animate attributeName="y" from="-800" to="800" dur="21s" begin="-15s" repeatCount="indefinite"/></use>
-    <use href="#streamMidRed" x="430"><animate attributeName="y" from="-950" to="800" dur="20s" begin="-2s" repeatCount="indefinite"/></use>
-    <use href="#streamMidRed" x="510"><animate attributeName="y" from="-800" to="800" dur="23s" begin="-16s" repeatCount="indefinite"/></use>
-    <use href="#streamMidRed" x="590"><animate attributeName="y" from="-1100" to="800" dur="18s" begin="-7s" repeatCount="indefinite"/></use>
-    <use href="#streamMidRed" x="670"><animate attributeName="y" from="-800" to="800" dur="20s" begin="-11s" repeatCount="indefinite"/></use>
-    <use href="#streamMidRed" x="750"><animate attributeName="y" from="-850" to="800" dur="21s" begin="-20s" repeatCount="indefinite"/></use>
-    <use href="#streamMidRed" x="830"><animate attributeName="y" from="-800" to="800" dur="19s" begin="-4s" repeatCount="indefinite"/></use>
-    <use href="#streamMidRed" x="910"><animate attributeName="y" from="-1200" to="800" dur="22s" begin="-17s" repeatCount="indefinite"/></use>
-    <use href="#streamMidRed" x="950"><animate attributeName="y" from="-800" to="800" dur="20s" begin="-10s" repeatCount="indefinite"/></use>
+  settings: {
+		COL_WIDTH: 20,
+		COL_HEIGHT: 25,
+		VELOCITY_PARAMS: {
+			min: 4,
+			max: 8
+		},
+		CODE_LENGTH_PARAMS: {
+			min: 20,
+			max: 40
+		}
+	},
 
-    <use href="#streamBrightRed" x="70"><animate attributeName="y" from="-800" to="800" dur="14s" begin="-10s" repeatCount="indefinite"/></use>
-    <use href="#streamBrightRed" x="150"><animate attributeName="y" from="-900" to="800" dur="12s" begin="-5s" repeatCount="indefinite"/></use>
-    <use href="#streamBrightRed" x="230"><animate attributeName="y" from="-800" to="800" dur="15s" begin="-2s" repeatCount="indefinite"/></use>
-    <use href="#streamBrightRed" x="310"><animate attributeName="y" from="-800" to="800" dur="13s" begin="-11s" repeatCount="indefinite"/></use>
-    <use href="#streamBrightRed" x="390"><animate attributeName="y" from="-1000" to="800" dur="11s" begin="-6s" repeatCount="indefinite"/></use>
-    <use href="#streamBrightRed" x="470"><animate attributeName="y" from="-800" to="800" dur="14s" begin="-3s" repeatCount="indefinite"/></use>
-    <use href="#streamBrightRed" x="550"><animate attributeName="y" from="-850" to="800" dur="12s" begin="-9s" repeatCount="indefinite"/></use>
-    <use href="#streamBrightRed" x="630"><animate attributeName="y" from="-800" to="800" dur="15s" begin="-0s" repeatCount="indefinite"/></use>
-    <use href="#streamBrightRed" x="710"><animate attributeName="y" from="-950" to="800" dur="13s" begin="-7s" repeatCount="indefinite"/></use>
-    <use href="#streamBrightRed" x="790"><animate attributeName="y" from="-800" to="800" dur="11s" begin="-4s" repeatCount="indefinite"/></use>
-    <use href="#streamBrightRed" x="870"><animate attributeName="y" from="-1100" to="800" dur="15s" begin="-12s" repeatCount="indefinite"/></use>
-    <use href="#streamBrightRed" x="960"><animate attributeName="y" from="-800" to="800" dur="13s" begin="-8s" repeatCount="indefinite"/></use>
+	animation: null,
 
-</svg>
+	c: null,
+	ctx: null,
+
+	lineC: null,
+	ctx2: null,
+
+	WIDTH: window.innerWidth,
+	HEIGHT: window.innerHeight,
+
+	COLUMNS: null,
+	canvii: [],
+
+	// font from here http://www.dafont.com/matrix-code-nfi.font
+	font: '30px matrix-code',
+	letters: ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z', '0', '1', '2', '3', '4', '5', '6', '7', '8', '9', '$', '+', '-', '*', '/', '=', '%', '"', '\'', '#', '&', '_', '(', ')', ',', '.', ';', ':', '?', '!', '\\', '|', '{', '}', '<', '>', '[', ']', '^', '~'],
+	
+	codes: [],
+
+	createCodeLoop: null,
+	codesCounter: 0,
+
+	init: function () {
+		M.c = document.getElementById( 'canvas' );
+		M.ctx = M.c.getContext( '2d' );
+		M.c.width = M.WIDTH;
+		M.c.height = M.HEIGHT;
+
+		M.ctx.shadowBlur = 0;
+		M.ctx.fillStyle = '#000';
+		M.ctx.fillRect(0, 0, M.WIDTH, M.HEIGHT);
+		M.ctx.font = M.font;
+
+		M.COLUMNS = Math.ceil(M.WIDTH / M.settings.COL_WIDTH);
+
+		for (var i = 0; i < M.COLUMNS; i++) {
+			M.codes[i] = [];
+			M.codes[i][0] = {
+				'open': true,
+				'position': {'x': 0, 'y': 0},
+				'strength': 0
+			};
+		}
+
+		M.loop();
+
+		M.createLines();
+
+		M.createCode();
+
+		// not doing this, kills CPU
+		// M.swapCharacters();
+
+		window.onresize = function () {
+			window.cancelAnimationFrame(M.animation);
+			M.animation = null;
+			M.ctx.clearRect(0, 0, M.WIDTH, M.HEIGHT);
+			M.codesCounter = 0;
+
+			M.ctx2.clearRect(0, 0, M.WIDTH, M.HEIGHT);
+
+			M.WIDTH = window.innerWidth;
+			M.HEIGHT = window.innerHeight;
+			M.init();
+		};
+	},
+
+	loop: function () {
+		M.animation = requestAnimationFrame( function(){ M.loop(); } );
+		M.draw();
+
+		stats.update();
+	},
+
+	// this used to be used straight after createCode, without using createCanvii - it allowed
+	// the characters within the code streams to be easily changable, but caused huge perf issues
+	// OLDdraw: function() {
+
+	// 	var codesLen = M.codes.length;
+	// 	var codeLen;
+	// 	var x;
+	// 	var y;
+	// 	var text;
+	// 	var velocity;
+	// 	var columnIndex;
+	// 	var strength;
+	// 	var fadeStrength;
+
+	// 	M.ctx.shadowColor = 'rgba(0, 0, 0, 0.5)';
+	// 	M.ctx.fillStyle = 'rgba(0, 0, 0, 0.5)';
+	// 	M.ctx.fillRect(0, 0, M.WIDTH, M.HEIGHT);
+
+	// 	M.ctx.globalCompositeOperation = 'source-over';
+
+	// 	for (var i = 0; i < codesLen; i++) {
+			
+	// 		velocity = M.codes[i][0].velocity;
+	// 		M.codes[i][0].position.y += velocity;
+
+	// 		y = M.codes[i][0].position.y;
+	// 		x = M.codes[i][0].position.x;
+	// 		codeLength = M.codes[i].length;
+	// 		strength = M.codes[i][0].strength;
+
+	// 		for (var j = 1; j < codeLength; j++) {
+	// 			text = M.codes[i][j];
+
+	// 			if (j < 5) {
+	// 				M.ctx.shadowColor = 'hsl(104, 79%, 74%)';
+	// 				M.ctx.shadowOffsetX = 0;
+	// 				M.ctx.shadowOffsetY = 0;
+	// 				M.ctx.shadowBlur = 10;
+	// 				M.ctx.fillStyle = 'hsla(104, 79%, ' + (100 - (j * 5)) + '%, ' + strength + ')';
+	// 			} else if (j > (codeLength - 4)) {
+	// 				fadeStrength = j / codeLength;
+	// 				fadeStrength = 1 - fadeStrength;
+
+	// 				M.ctx.shadowOffsetX = 0;
+	// 				M.ctx.shadowOffsetY = 0;
+	// 				M.ctx.shadowBlur = 0;
+	// 				M.ctx.fillStyle = 'hsla(104, 79%, 74%, ' + (fadeStrength + 0.3) + ')';
+	// 			} else {
+	// 				M.ctx.shadowOffsetX = 0;
+	// 				M.ctx.shadowOffsetY = 0;
+	// 				M.ctx.shadowBlur = 0;
+	// 				M.ctx.fillStyle = 'hsla(104, 79%, 74%, ' + strength + ')';
+	// 			}
+
+	// 			// M.ctx.fillStyle = 'hsl(104, 79%, ' + (M.codes[i][0].strength * 74) + '%)';
+	// 			M.ctx.fillText(text, x, (y - (j * M.settings.COL_HEIGHT)));
+
+	// 			if ((j === codeLength - 1) && (y - ((j + 1) * M.settings.COL_HEIGHT) > M.HEIGHT)) {
+	// 				columnIndex = M.codes[i][0].position.x / M.settings.COL_WIDTH;
+	// 				M.codes[columnIndex][0].open = true;
+	// 				M.codes[columnIndex][0].position.y = 0;
+	// 			}
+	// 		}
+	// 	}
+
+	// },
+	
+	draw: function() {
+
+		var velocity, height, x, y, c, ctx;
+
+		// slow fade BG colour
+		M.ctx.shadowColor = 'rgba(0, 0, 0, 0.5)';
+		M.ctx.fillStyle = 'rgba(0, 0, 0, 0.5)';
+		M.ctx.fillRect(0, 0, M.WIDTH, M.HEIGHT);
+
+		M.ctx.globalCompositeOperation = 'source-over';
+
+		for (var i = 0; i < M.COLUMNS; i++) {
+			
+			// check member of array isn't undefined at this point
+			if (M.codes[i][0].canvas) {
+				velocity = M.codes[i][0].velocity;
+				height = M.codes[i][0].canvas.height;
+				x = M.codes[i][0].position.x;
+				y = M.codes[i][0].position.y - height;
+				c = M.codes[i][0].canvas;
+				ctx = c.getContext('2d');
+
+				M.ctx.drawImage(c, x, y, M.settings.COL_WIDTH, height);
+
+				if ((M.codes[i][0].position.y - height) < M.HEIGHT){
+					M.codes[i][0].position.y += velocity;
+				} else {
+					M.codes[i][0].position.y = 0;
+				}
+
+			}
+		}
+
+	},
+
+	createCode: function() {
+
+		if (M.codesCounter > M.COLUMNS) {
+			clearTimeout(M.createCodeLoop);
+			return;
+		}
+
+		var randomInterval = M.randomFromInterval(0, 100);
+		var column = M.assignColumn();
+
+		if (column) {
+			
+			var codeLength = M.randomFromInterval(M.settings.CODE_LENGTH_PARAMS.min, M.settings.CODE_LENGTH_PARAMS.max);
+			var codeVelocity = (Math.random() * (M.settings.VELOCITY_PARAMS.max - M.settings.VELOCITY_PARAMS.min)) + M.settings.VELOCITY_PARAMS.min;
+			var lettersLength = M.letters.length;
+
+			M.codes[column][0].position = {'x': (column * M.settings.COL_WIDTH), 'y': 0};
+			M.codes[column][0].velocity = codeVelocity;
+			M.codes[column][0].strength = M.codes[column][0].velocity / M.settings.VELOCITY_PARAMS.max;
+
+			for (var i = 1; i <= codeLength; i++) {
+				var newLetter = M.randomFromInterval(0, (lettersLength - 1));
+				M.codes[column][i] = M.letters[newLetter];
+			}
+
+			M.createCanvii(column);
+
+			M.codesCounter++;
+
+		}
+
+		M.createCodeLoop = setTimeout(M.createCode, randomInterval);
+
+	},
+
+	createCanvii: function(i) {
+
+		var codeLen = M.codes[i].length - 1;
+		var canvHeight = codeLen * M.settings.COL_HEIGHT;
+		var velocity = M.codes[i][0].velocity;
+		var strength = M.codes[i][0].strength;
+		var text, fadeStrength;
+
+		var newCanv = document.createElement('canvas');
+		var newCtx = newCanv.getContext('2d');
+
+		newCanv.width = M.settings.COL_WIDTH;
+		newCanv.height = canvHeight;
+
+		for (var j = 1; j < codeLen; j++) {
+			text = M.codes[i][j];
+			newCtx.globalCompositeOperation = 'source-over';
+			newCtx.font = '30px matrix-code';
+
+			if (j < 5) {
+				newCtx.shadowColor = 'hsl(104, 79%, 74%)';
+				newCtx.shadowOffsetX = 0;
+				newCtx.shadowOffsetY = 0;
+				newCtx.shadowBlur = 10;
+				newCtx.fillStyle = 'hsla(104, 79%, ' + (100 - (j * 5)) + '%, ' + strength + ')';
+			} else if (j > (codeLen - 4)) {
+				fadeStrength = j / codeLen;
+				fadeStrength = 1 - fadeStrength;
+
+				newCtx.shadowOffsetX = 0;
+				newCtx.shadowOffsetY = 0;
+				newCtx.shadowBlur = 0;
+				newCtx.fillStyle = 'hsla(104, 79%, 74%, ' + (fadeStrength + 0.3) + ')';
+			} else {
+				newCtx.shadowOffsetX = 0;
+				newCtx.shadowOffsetY = 0;
+				newCtx.shadowBlur = 0;
+				newCtx.fillStyle = 'hsla(104, 79%, 74%, ' + strength + ')';
+			}
+
+			newCtx.fillText(text, 0, (canvHeight - (j * M.settings.COL_HEIGHT)));
+		}
+
+		M.codes[i][0].canvas = newCanv;
+
+	},
+
+	swapCharacters: function() {
+		var randomCodeIndex;
+		var randomCode;
+		var randomCodeLen;
+		var randomCharIndex;
+		var newRandomCharIndex;
+		var newRandomChar;
+
+		for (var i = 0; i < 20; i++) {
+			randomCodeIndex = M.randomFromInterval(0, (M.codes.length - 1));
+			randomCode = M.codes[randomCodeIndex];
+			randomCodeLen = randomCode.length;
+			randomCharIndex = M.randomFromInterval(2, (randomCodeLen - 1));
+			newRandomCharIndex = M.randomFromInterval(0, (M.letters.length - 1));
+			newRandomChar = M.letters[newRandomCharIndex];
+		
+			randomCode[randomCharIndex] = newRandomChar;
+		}
+
+		M.swapCharacters();
+	},
+
+	createLines: function() {
+		M.linesC = document.createElement('canvas');
+		M.linesC.width = M.WIDTH;
+		M.linesC.height = M.HEIGHT;
+		M.linesC.style.position = 'absolute';
+		M.linesC.style.top = 0;
+		M.linesC.style.left = 0;
+		M.linesC.style.zIndex = 10;
+		document.body.appendChild(M.linesC);
+
+		var linesYBlack = 0;
+		var linesYWhite = 0;
+		M.ctx2 = M.linesC.getContext('2d');
+
+		M.ctx2.beginPath();
+
+		M.ctx2.lineWidth = 1;
+		M.ctx2.strokeStyle = 'rgba(0, 0, 0, 0.7)';
+
+		while (linesYBlack < M.HEIGHT) {
+
+			M.ctx2.moveTo(0, linesYBlack);
+			M.ctx2.lineTo(M.WIDTH, linesYBlack);
+
+			linesYBlack += 5;
+		}
+
+		M.ctx2.lineWidth = 0.15;
+		M.ctx2.strokeStyle = 'rgba(255, 255, 255, 0.7)';
+
+		while (linesYWhite < M.HEIGHT) {
+
+			M.ctx2.moveTo(0, linesYWhite+1);
+			M.ctx2.lineTo(M.WIDTH, linesYWhite+1);
+
+			linesYWhite += 5;
+		}
+
+		M.ctx2.stroke();
+	},
+
+	assignColumn: function() {
+		var randomColumn = M.randomFromInterval(0, (M.COLUMNS - 1));
+
+		if (M.codes[randomColumn][0].open) {
+			M.codes[randomColumn][0].open = false;
+		} else {
+			return false;
+		}
+
+		return randomColumn;
+	},
+
+	randomFromInterval: function(from, to) {
+		return Math.floor(Math.random() * (to - from+ 1 ) + from);
+	},
+
+	snapshot: function() {
+		window.open(M.c.toDataURL());
+	}
+
+};
+function eventListenerz() {
+	var controlToggles = document.getElementsByClassName('toggle-info');
+	var controls = document.getElementById('info');
+	var snapshotBtn = document.getElementById('snapshot');
+
+	function toggleControls(e) {
+		e.preventDefault();
+		controls.className = controls.className === 'closed' ? '' : 'closed';
+	}
+
+	for (var j = 0; j < 2; j++) {
+		controlToggles[j].addEventListener('click', toggleControls, false);
+	}
+
+	snapshotBtn.addEventListener('click', M.snapshot, false);
+
+}
+
+window.onload = function() {
+
+	M.init();
+
+	eventListenerz();
+
+};
