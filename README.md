@@ -9,9 +9,9 @@
 </p>
 
 ---
-<p align="center">
+/*<p align="center">
   <img src="./matrix-rain.svg" alt="Matrix Rain Animation" width="100%"/>
-</p>
+</p>*/
 
 
 ## 💡 Languages
