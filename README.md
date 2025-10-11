@@ -105,21 +105,33 @@
 
 ## ✨ GitHub Stats
 
-<p align="center">
+<div align="center">
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=shahedul-islam-joshi&show_icons=true&theme=radical&include_all_commits=true&count_private=true&hide_border=true)
-![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=shahedul-islam-joshi&theme=radical&hide_border=true)
+  <!-- GitHub Stats -->
+  <img 
+    src="https://github-readme-stats.vercel.app/api?username=shahedul-islam-joshi&show_icons=true&theme=radical&include_all_commits=true&count_private=true&hide_border=true" 
+    alt="Shahedul Islam Joshi's GitHub Stats" 
+    height="165"
+  />
 
-</p>
+  <!-- Streak Stats -->
+  <img 
+    src="https://github-readme-streak-stats.herokuapp.com/?user=shahedul-islam-joshi&theme=radical&hide_border=true" 
+    alt="Shahedul Islam Joshi's GitHub Streak" 
+    height="165"
+  />
 
-<p align="center">
+  <br/>
+
   <!-- Top Languages -->
   <img 
     src="https://github-readme-stats.vercel.app/api/top-langs/?username=shahedul-islam-joshi&layout=compact&theme=radical&hide_border=true" 
     alt="Top Languages" 
-    height="200"
+    height="150"
   />
-</p>
+
+</div>
+
 
 
 
