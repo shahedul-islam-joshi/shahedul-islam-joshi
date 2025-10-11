@@ -106,12 +106,26 @@
 ## ✨ GitHub Stats
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=shahedul-islam-joshi&show_icons=true&theme=radical" alt="Shahedul Islam Joshi's GitHub Stats"/>
+
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=shahedul-islam-joshi&show_icons=true&theme=radical&include_all_commits=true&count_private=true&hide_border=true)
+![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=shahedul-islam-joshi&theme=radical&hide_border=true)
+
 </p>
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=shahedul-islam-joshi&layout=compact&theme=radical" alt="Top Languages"/>
+  <!-- Top Languages -->
+  <img 
+    src="https://github-readme-stats.vercel.app/api/top-langs/?username=shahedul-islam-joshi&layout=compact&theme=radical&hide_border=true" 
+    alt="Top Languages" 
+    height="200"
+  />
 </p>
+
+
+
+
+
+
 
 
 ## 🏆 Profile Trophies
@@ -136,6 +150,9 @@
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=shahedul-islam-joshi&color=brightgreen" alt="Profile Views"/>
 </p>
+
+
+
 
 
 
