@@ -10,7 +10,7 @@
 
 ---
 <p align="center">
-  <img src="./matrix-rain.svg" alt="Matrix Rain Animation" width="100%"/>
+  <img src="https://raw.githubusercontent.com/shahedul-islam-joshi/shahedul-islam-joshi/main/1760169079429%20(1).gif" alt="Matrix Rain" width="800"/>
 </p>
 
 
