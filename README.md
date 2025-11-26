@@ -172,7 +172,8 @@
 
 ## 🎓 Education
 
-- **B.Sc. in Computer Science & Engineering** — National University, Bangladesh (2023 – Present)
+- **B.Sc. in Computer Science & Engineering** — National University, Bangladesh (2023 – Present)  
+  Affiliated Institute: Institute of Science, Trade & Technology (ISTT)
 - **Uttara High School and College** — Completed JSC, SSC, HSC (Science Group). Completed both Secondary and Higher Secondary education from the same institution.
 
 
