@@ -5,7 +5,7 @@
 <h1 align="center">Hi there 👋, I'm Joshi</h1>
 
 <p align="center">
-  <a href="https://github.com/DenverCoder1/readme-typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=F724A9&center=true&vCenter=true&width=430&lines=I+am+a+passionate+engineer;I+love+to+code;I+build+amazing+things;Welcome+to+my+profile!" alt="Typing SVG" /></a>
+  <a href="https://github.com/DenverCoder1/readme-typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=F724A9&center=true&vCenter=true&width=430&lines=Welcome+to+my+profile!" alt="Typing SVG" /></a>
 </p>
 
 ---
