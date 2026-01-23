@@ -241,7 +241,7 @@
 
 <!-- Row 3 -->
 <img
-  src="https://github-readme-stats-fast.vercel.app/api/top-langs/?username=shahedul-islam-joshi&layout=compact&theme=radical"
+  src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=shahedul-islam-joshi&theme=radical"
   height="150"
 />
 <img
@@ -252,11 +252,11 @@
 <br/><br/>
 
 <!-- Row 4 -->
+
 <img
-  src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=shahedul-islam-joshi&theme=radical"
+  src="https://github-readme-stats-fast.vercel.app/api/top-langs/?username=shahedul-islam-joshi&layout=compact&theme=radical"
   height="150"
 />
-
 </div>
 
 
