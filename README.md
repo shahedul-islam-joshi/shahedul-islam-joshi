@@ -8,7 +8,9 @@
   <a href="https://github.com/DenverCoder1/readme-typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=F724A9&center=true&vCenter=true&width=430&lines=Welcome+to+my+profile!" alt="Typing SVG" /></a>
 </p>
 
+
 ---
+
 <p align="center">
   <img src="https://raw.githubusercontent.com/shahedul-islam-joshi/shahedul-islam-joshi/main/1760169079429%20(1).gif" alt="Matrix Rain" width="800"/>
 </p>
@@ -19,7 +21,9 @@
 
 
 
-
+<div align="center">
+  <img  width="100%" style="100%" src="https://capsule-render.vercel.app/api?type=waving&height=120&section=header&reversal=false&fontSize=70&fontColor=FFFFFF&fontAlign=50&fontAlignY=50&stroke=-&descSize=20&descAlign=50&descAlignY=50&color=gradient"  />
+</div>
 
 
 
