@@ -30,7 +30,7 @@
 
 
 
-## 💡 Languages
+##  Languages
 
 <p align="center">
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" alt="C" width="50" height="50"/>
@@ -77,7 +77,7 @@
 
 
 
-## ⚙️ Framework
+##  Framework
 
 <!--
 <p align="center">
@@ -110,7 +110,7 @@
 </p>
 
 
-## 🧰 Platforms & Tools
+##  Platforms & Tools
 
 
 <p align="center">
@@ -127,7 +127,7 @@
 
 
 
-## 🧭 Version Control Systems
+##  Version Control Systems
 
 <p align="center">
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" alt="Git" width="50" height="50"/>
@@ -142,7 +142,7 @@
 
 
 
-## 🛠️ IDEs
+##  IDEs
 
 <p align="center">
     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/eclipse/eclipse-original.svg" alt="Eclipse (used as Code::Blocks placeholder)" width="50" height="50"/>
@@ -160,7 +160,7 @@
 
 
 
-## 🗄️ Database
+##  Database
 
 <p align="center">
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/microsoftsqlserver/microsoftsqlserver-plain.svg" alt="Microsoft SQL Server" width="50" height="50"/>
@@ -176,7 +176,7 @@
 
 
 
-## 🌐 Social Links
+##  Social Links
 
 <p align="center">
   <a href="https://facebook.com/islam.joshiii1133"><img src="https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white" alt="Facebook"/></a>
@@ -193,7 +193,7 @@
 
 
 
-## 💼 Portfolio
+##  Portfolio
 
 <p align="center">
   <a href="https://behance.net/shahedul_islam_joshi"><img src="https://img.shields.io/badge/Behance-1769FF?style=for-the-badge&logo=behance&logoColor=white" alt="Behance"/></a>
@@ -201,21 +201,21 @@
 </p>
 
 
-## ✍️ Blog
+##  Blog
 
 <p align="center">
   <a href="https://medium.com/@shahedul_islam_joshi"><img src="https://img.shields.io/badge/Medium-12100E?style=for-the-badge&logo=medium&logoColor=white" alt="Medium"/></a>
 </p>
 
 
-## 🎓 Education
+##  Education
 
 - **B.Sc. in Computer Science & Engineering** — National University, Bangladesh (2023 – Present)  
   Affiliated Institute: Institute of Science, Trade & Technology (ISTT)
 - **Uttara High School and College** — Completed JSC, SSC, HSC (Science Group). Completed both Secondary and Higher Secondary education from the same institution.
 
 
-## 🌍 Languages I Speak
+##  Languages I Speak
 
 - English (Fluent)
 - Bangla (Native)
@@ -225,7 +225,7 @@
 
 
 
-## ✨ GitHub Stats
+##  GitHub Stats
 
 <div align="center">
 
@@ -275,7 +275,7 @@
 
 
 
-## 🏆 Profile Trophies
+##  Profile Trophies
 
 <p align="center">
   <img 
@@ -288,7 +288,7 @@
 
 
 
-## 📈 Activity Graph
+##  Activity Graph
 
 <p align="center">
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=shahedul-islam-joshi&theme=react" alt="Shahedul Islam Joshi's Activity Graph"/>
@@ -298,7 +298,7 @@
 
 
 
-## 🧮 Profile Views Counter
+##  Profile Views Counter
 
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=shahedul-islam-joshi&color=brightgreen" alt="Profile Views"/>
@@ -310,7 +310,7 @@
 
 
 
-## 💬 Developer Quote / Random Dev Joke
+##  Developer Quote / Random Dev Joke
 
 <p align="center">
   <img src="https://quotes-github-readme.vercel.app/api?type=quote&theme=dark" alt="Developer Quote"/>
