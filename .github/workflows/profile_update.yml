@@ -1,0 +1,40 @@
+name: Update Profile Time
+
+on:
+  schedule:
+    # Runs every 30 minutes to keep you active
+    - cron: '*/30 * * * *'
+  workflow_dispatch:      # Allows you to click "Run workflow" manually
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write     # Vital for the script to "Push" the update
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Update Last Seen Date
+        run: |
+          # Set the timezone to Bangladesh
+          export TZ="Asia/Dhaka"
+          CURRENT_TIME=$(date +'%Y-%m-%d %I:%M %p')
+          
+          # Check if "Last seen:" exists in README.md
+          if grep -q "Last seen:" README.md; then
+            # If it exists, replace that line with the new time
+            sed -i "s|Last seen:.*|Last seen: $CURRENT_TIME (BD Time) 🇧🇩|" README.md
+          else
+            # If it doesn't exist, add it to the bottom of the file
+            echo -e "\n---\nLast seen: $CURRENT_TIME (BD Time) 🇧🇩" >> README.md
+          fi
+
+      - name: Save Changes to GitHub
+        run: |
+          git config --global user.name 'shahedul-islam-joshi'
+          git config --global user.email 'shahedul-islam-joshi@users.noreply.github.com'
+          git add README.md
+          # Only commit if there are actually changes to avoid errors
+          git commit -m "chore: update last seen timestamp [skip ci]" || echo "No changes to commit"
+          git push
