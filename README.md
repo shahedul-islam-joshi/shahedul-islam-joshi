@@ -1,4 +1,4 @@
-Last seen: initializing...
+Last seen: 2026-02-22 12:57 AM (BD Time) 🇧🇩
 
 
 
