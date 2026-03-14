@@ -17,7 +17,7 @@ Last seen: 2026-03-15 01:45 AM (BD Time) 🇧🇩
 ---
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/shahedul-islam-joshi/shahedul-islam-joshi/main/1760169079429%20(1).gif" alt="Matrix Rain" width="800"/>
+  <img src="https://raw.githubusercontent.com/shahedul-islam-joshi/shahedul-islam-joshi/main/matrix-rain.gif" alt="Matrix Rain" width="800"/>
 </p>
 
 
