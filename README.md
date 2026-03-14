@@ -1,6 +1,11 @@
 Last seen: 2026-03-15 02:28 AM (BD Time) 🇧🇩
 
 
+<div align="center">
+  <img  width="100%" style="100%" src="https://capsule-render.vercel.app/api?type=waving&height=120&section=header&reversal=false&fontSize=70&fontColor=FFFFFF&fontAlign=50&fontAlignY=50&stroke=-&descSize=20&descAlign=50&descAlignY=50&color=gradient"  />
+</div>
+
+
 
 
 <p align="center">
@@ -26,9 +31,7 @@ Last seen: 2026-03-15 02:28 AM (BD Time) 🇧🇩
 
 
 
-<div align="center">
-  <img  width="100%" style="100%" src="https://capsule-render.vercel.app/api?type=waving&height=120&section=header&reversal=false&fontSize=70&fontColor=FFFFFF&fontAlign=50&fontAlignY=50&stroke=-&descSize=20&descAlign=50&descAlignY=50&color=gradient"  />
-</div>
+
 
 
 
