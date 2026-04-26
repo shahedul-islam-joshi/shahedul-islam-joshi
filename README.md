@@ -22,7 +22,7 @@
 > building systems that actually *do* something powerful under the hood.
 > I don't just write code; I break things, figure out why they broke, fix them better,
 > and come back stronger every single time.
-> Currently on a mission to master the stack from the ground up — one project, one bug, one breakthrough at a time. 💥
+> Currently on a mission to master the stack from the ground up — one project, one bug, one breakthrough at a time. 
  
 ---
 
