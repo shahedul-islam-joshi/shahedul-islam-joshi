@@ -14,7 +14,7 @@
   <img src="https://raw.githubusercontent.com/Platane/snk/output/github-contribution-grid-snake.svg" alt="Snake animation" />
 </p>
 
-<h1 align="center">Hi there 👋, I'm Joshi</h1>
+<h1 align="center">Hi there, I'm Joshi</h1>
 
 ##  About Me
  
