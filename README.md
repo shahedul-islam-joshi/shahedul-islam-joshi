@@ -309,13 +309,9 @@
 
 
 
-##  Profile Trophies
-
+## Profile Trophies
 <p align="center">
-  <img 
-    src="https://github-profile-trophy-ruby.vercel.app/?username=shahedul-islam-joshi&theme=radical" 
-    alt="GitHub Trophies"
-  />
+  <img src="https://github-profile-trophy-ruby.vercel.app/?username=shahedul-islam-joshi&theme=radical" alt="GitHub Trophies" />
 </p>
 
 
