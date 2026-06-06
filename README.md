@@ -49,18 +49,6 @@
 
 <!-- Row 1 -->
 <img
-  src="https://github-readme-stats-fast.vercel.app/api/top-langs/?username=shahedul-islam-joshi&layout=compact&theme=radical"
-  height="162"
-/>
-<img
-  src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=shahedul-islam-joshi&theme=radical"
-  height="165"
-/>
-
-<br/><br/>
-
-<!-- Row 2 -->
-<img
   src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=shahedul-islam-joshi&theme=radical"
   height="150"
 />
@@ -71,6 +59,19 @@
 
 <br/><br/>
 
+
+
+<!-- Row 2 -->
+<img
+  src="https://github-readme-stats-fast.vercel.app/api/top-langs/?username=shahedul-islam-joshi&layout=compact&theme=radical"
+  height="162"
+/>
+<img
+  src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=shahedul-islam-joshi&theme=radical"
+  height="165"
+/>
+
+<br/><br/>
 
 <!-- Row 3 -->
 <img
