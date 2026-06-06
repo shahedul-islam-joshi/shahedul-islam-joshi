@@ -43,6 +43,83 @@
 
 
 
+##  GitHub Stats
+
+<div align="center">
+
+<!-- Row 1 -->
+<img
+  src="https://github-readme-stats-fast.vercel.app/api/top-langs/?username=shahedul-islam-joshi&layout=compact&theme=radical"
+  height="162"
+/>
+<img
+  src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=shahedul-islam-joshi&theme=radical"
+  height="165"
+/>
+
+<br/><br/>
+
+<!-- Row 2 -->
+<img
+  src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=shahedul-islam-joshi&theme=radical"
+  height="150"
+/>
+<img
+  src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=shahedul-islam-joshi&theme=radical"
+  height="150"
+/>
+
+<br/><br/>
+
+
+<!-- Row 3 -->
+<img
+  src="https://github-readme-stats-fast.vercel.app/api/streak?username=shahedul-islam-joshi&theme=radical"
+  height="165"
+/>
+<img
+  src="https://github-readme-stats-fast.vercel.app/api?username=shahedul-islam-joshi&show_icons=true&theme=radical"
+  height="165"
+/>
+
+<br/><br/>
+
+</div>
+
+##  LeetCode Stats
+
+<p align="center">
+  <img src="https://leetcard.jacoblin.cool/shahedul-islam-joshi?theme=dark&font=Fira+Code&ext=heatmap" alt="LeetCode Stats"/>
+</p>
+
+
+
+## Profile Trophies
+<p align="center">
+  <img src="https://github-profile-trophy-ruby.vercel.app/?username=shahedul-islam-joshi&theme=radical" alt="GitHub Trophies" />
+</p>
+
+
+
+
+
+##  Activity Graph
+
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=shahedul-islam-joshi&theme=react" alt="Shahedul Islam Joshi's Activity Graph"/>
+</p>
+
+
+
+
+
+##  Profile Views Counter
+
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=shahedul-islam-joshi&color=brightgreen" alt="Profile Views"/>
+</p>
+
+
 
 
 
@@ -248,91 +325,6 @@
 
 
 
-
-
-##  GitHub Stats
-
-<div align="center">
-
-<!-- Row 1 -->
-<img
-  src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=shahedul-islam-joshi&theme=radical"
-  height="165"
-/>
-<img
-  src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=shahedul-islam-joshi&theme=radical"
-  height="165"
-/>
-
-<br/><br/>
-
-<!-- Row 2 -->
-<img
-  src="https://github-readme-stats-fast.vercel.app/api/streak?username=shahedul-islam-joshi&theme=radical"
-  height="165"
-/>
-<img
-  src="https://github-readme-stats-fast.vercel.app/api?username=shahedul-islam-joshi&show_icons=true&theme=radical"
-  height="165"
-/>
-
-<br/><br/>
-
-<!-- Row 3 -->
-<img
-  src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=shahedul-islam-joshi&theme=radical"
-  height="150"
-/>
-<img
-  src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=shahedul-islam-joshi&theme=radical"
-  height="150"
-/>
-
-<br/><br/>
-
-<!-- Row 4 -->
-
-<img
-  src="https://github-readme-stats-fast.vercel.app/api/top-langs/?username=shahedul-islam-joshi&layout=compact&theme=radical"
-  height="150"
-/>
-</div>
-
-
-
-
-##  LeetCode Stats
-
-<p align="center">
-  <img src="https://leetcard.jacoblin.cool/shahedul-islam-joshi?theme=dark&font=Fira+Code&ext=heatmap" alt="LeetCode Stats"/>
-</p>
-
-
-
-## Profile Trophies
-<p align="center">
-  <img src="https://github-profile-trophy-ruby.vercel.app/?username=shahedul-islam-joshi&theme=radical" alt="GitHub Trophies" />
-</p>
-
-
-
-
-
-##  Activity Graph
-
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=shahedul-islam-joshi&theme=react" alt="Shahedul Islam Joshi's Activity Graph"/>
-</p>
-
-
-
-
-
-##  Profile Views Counter
-
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=shahedul-islam-joshi&color=brightgreen" alt="Profile Views"/>
-</p>
 
 
 
