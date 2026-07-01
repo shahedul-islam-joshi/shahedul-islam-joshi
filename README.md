@@ -123,7 +123,7 @@
 
 
 
-
+<!--
 
 
 
@@ -157,11 +157,13 @@
   <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
   <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white"/>
   <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white"/>
- 
+ -->
   <!--
   <img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black"/>
   <img src="https://img.shields.io/badge/Bootstrap-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white"/>
  -->
+
+ <!--
   <img src="https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnubash&logoColor=white"/>
   <img src="https://img.shields.io/badge/Shell_Script-121011?style=for-the-badge&logo=gnu-bash&logoColor=white"/>
   <img src="https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white"/>
@@ -181,14 +183,14 @@
 
 ##  Framework
 
-<!--
+
 <p align="center">
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dotnetcore/dotnetcore-original.svg" alt="ASP.NET Core MVC" width="50" height="50"/>
 </p>
 <p align="center">
   <img src="https://img.shields.io/badge/ASP.NET_Core_MVC-512BD4?style=for-the-badge&logo=dotnet&logoColor=white" alt="ASP.NET Core MVC"/>
 </p>
--->
+
 
 <table align="center">
   <tr>
@@ -277,7 +279,7 @@
 </p>
 
 
-
+-->
 
 ##  Social Links
 
@@ -310,7 +312,7 @@
   <a href="https://medium.com/@shahedul_islam_joshi"><img src="https://img.shields.io/badge/Medium-12100E?style=for-the-badge&logo=medium&logoColor=white" alt="Medium"/></a>
 </p>
 
-
+<!--
 ##  Education
 
 - **B.Sc. in Computer Science & Engineering** — National University, Bangladesh (2023 – Present)  
@@ -324,7 +326,7 @@
 - Bangla (Native)
 
 
-
+-->
 
 
 
