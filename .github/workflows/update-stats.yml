@@ -1,0 +1,55 @@
+name: Update GitHub Stats Cards
+
+on:
+  schedule:
+    - cron: '0 0 * * *'   # every day at 00:00 UTC
+  workflow_dispatch:        # lets you trigger it manually from the Actions tab
+
+permissions:
+  contents: write
+
+jobs:
+  update-stats:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Create assets directory
+        run: mkdir -p profile-assets
+
+      - name: Fetch and validate cards
+        run: |
+          fetch_card () {
+            local name="$1"
+            local url="$2"
+            local dest="profile-assets/${name}.svg"
+            local tmp="profile-assets/${name}.tmp"
+
+            curl -sL "$url" -o "$tmp"
+
+            # Only overwrite the committed file if we actually got a valid SVG back.
+            # This protects against the upstream service returning an error page
+            # or a rate-limit response, which would otherwise commit a broken image.
+            if head -c 200 "$tmp" | grep -qi "<svg"; then
+              mv "$tmp" "$dest"
+              echo "Updated $name"
+            else
+              echo "WARNING: $name did not return a valid SVG, keeping previous version"
+              rm -f "$tmp"
+            fi
+          }
+
+          fetch_card "most-commit-language" "https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=shahedul-islam-joshi&theme=radical"
+          fetch_card "repos-per-language"   "https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=shahedul-islam-joshi&theme=radical"
+          fetch_card "productive-time"      "https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=shahedul-islam-joshi&theme=radical"
+          fetch_card "top-langs"            "https://github-readme-stats-fast.vercel.app/api/top-langs/?username=shahedul-islam-joshi&layout=compact&theme=radical"
+          fetch_card "streak-stats"         "https://github-readme-stats-fast.vercel.app/api/streak?username=shahedul-islam-joshi&theme=radical"
+          fetch_card "github-stats"         "https://github-readme-stats-fast.vercel.app/api?username=shahedul-islam-joshi&show_icons=true&theme=radical"
+
+      - name: Commit and push if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add profile-assets/*.svg
+          git diff --staged --quiet || (git commit -m "chore: refresh GitHub stats cards" && git push)
