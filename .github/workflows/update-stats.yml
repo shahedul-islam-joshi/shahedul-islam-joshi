@@ -40,9 +40,9 @@ jobs:
             fi
           }
 
-          fetch_card "most-commit-language" "https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=shahedul-islam-joshi&theme=radical"
-          fetch_card "repos-per-language"   "https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=shahedul-islam-joshi&theme=radical"
-          fetch_card "productive-time"      "https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=shahedul-islam-joshi&theme=radical"
+          fetch_card "most-commit-language" "https://github-profile-summary-cards-iota-ashy.vercel.app/api/cards/most-commit-language?username=shahedul-islam-joshi&theme=radical"
+          fetch_card "repos-per-language"   "https://github-profile-summary-cards-iota-ashy.vercel.app/api/cards/repos-per-language?username=shahedul-islam-joshi&theme=radical"
+          fetch_card "productive-time"      "https://github-profile-summary-cards-iota-ashy.vercel.app/api/cards/productive-time?username=shahedul-islam-joshi&theme=radical"
           fetch_card "top-langs"            "https://github-readme-stats-fast.vercel.app/api/top-langs/?username=shahedul-islam-joshi&layout=compact&theme=radical"
           fetch_card "streak-stats"         "https://github-readme-stats-fast.vercel.app/api/streak?username=shahedul-islam-joshi&theme=radical"
           fetch_card "github-stats"         "https://github-readme-stats-fast.vercel.app/api?username=shahedul-islam-joshi&show_icons=true&theme=radical"
