@@ -31,7 +31,7 @@ jobs:
             # Only overwrite the committed file if we actually got a valid SVG back.
             # This protects against the upstream service returning an error page
             # or a rate-limit response, which would otherwise commit a broken image.
-            if head -c 200 "$tmp" | grep -qi "<svg"; then
+            if head -c 500 "$tmp" | grep -qi "<svg" && ! grep -qi "rate limit\|error!!!\|API rate limit" "$tmp"; then
               mv "$tmp" "$dest"
               echo "Updated $name"
             else
