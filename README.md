@@ -111,9 +111,11 @@
 
 
 
-
+<!--
 ##  Profile Views Counter
+-->
 
+##
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=shahedul-islam-joshi&color=brightgreen" alt="Profile Views"/>
 </p>
@@ -279,6 +281,9 @@
 
 -->
 
+
+<!--
+
 ##  Social Links
 
 <p align="center">
@@ -309,6 +314,29 @@
 <p align="center">
   <a href="https://medium.com/@shahedul_islam_joshi"><img src="https://img.shields.io/badge/Medium-12100E?style=for-the-badge&logo=medium&logoColor=white" alt="Medium"/></a>
 </p>
+
+-->
+
+
+##  Connect With Me
+
+<p align="center">
+  <a href="https://facebook.com/islam.joshiii1133"><img src="https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white" alt="Facebook" style="margin: 6px;"/></a>
+  <a href="https://instagram.com/shahedul_islam_joshi"><img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram" style="margin: 6px;"/></a>
+  <a href="https://linkedin.com/in/shahedul-islam-joshi"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" style="margin: 6px;"/></a>
+  <a href="https://x.com/islam_joshi"><img src="https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white" alt="X (Twitter)" style="margin: 6px;"/></a>
+  <a href="mailto:shahedul.islam.joshi.1710@gmail.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail" style="margin: 6px;"/></a>
+</p>
+
+<br/>
+
+<p align="center">
+  <a href="https://behance.net/shahedul_islam_joshi"><img src="https://img.shields.io/badge/Behance-1769FF?style=for-the-badge&logo=behance&logoColor=white" alt="Behance" style="margin: 6px;"/></a>
+  <a href="https://dribbble.com/shahedul_islam_joshi"><img src="https://img.shields.io/badge/Dribbble-EA4C89?style=for-the-badge&logo=dribbble&logoColor=white" alt="Dribbble" style="margin: 6px;"/></a>
+  <a href="https://medium.com/@shahedul_islam_joshi"><img src="https://img.shields.io/badge/Medium-12100E?style=for-the-badge&logo=medium&logoColor=white" alt="Medium" style="margin: 6px;"/></a>
+</p>
+
+
 
 <!--
 ##  Education
