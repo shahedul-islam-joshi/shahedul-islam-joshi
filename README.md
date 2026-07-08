@@ -49,25 +49,23 @@
 
 <!-- Row 1 -->
 <img
-  src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=shahedul-islam-joshi&theme=radical"
+  src="./profile-assets/most-commit-language.svg"
   height="150"
 />
 <img
-  src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=shahedul-islam-joshi&theme=radical"
+  src="./profile-assets/repos-per-language.svg"
   height="150"
 />
 
 <br/><br/>
 
-
-
 <!-- Row 2 -->
 <img
-  src="https://github-readme-stats-fast.vercel.app/api/top-langs/?username=shahedul-islam-joshi&layout=compact&theme=radical"
+  src="./profile-assets/top-langs.svg"
   height="162"
 />
 <img
-  src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=shahedul-islam-joshi&theme=radical"
+  src="./profile-assets/productive-time.svg"
   height="165"
 />
 
@@ -75,11 +73,11 @@
 
 <!-- Row 3 -->
 <img
-  src="https://github-readme-stats-fast.vercel.app/api/streak?username=shahedul-islam-joshi&theme=radical"
+  src="./profile-assets/streak-stats.svg"
   height="165"
 />
 <img
-  src="https://github-readme-stats-fast.vercel.app/api?username=shahedul-islam-joshi&show_icons=true&theme=radical"
+  src="./profile-assets/github-stats.svg"
   height="165"
 />
 
