@@ -45,6 +45,11 @@
 
 ##  GitHub Stats
 
+
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=shahedul-islam-joshi&color=brightgreen" alt="Profile Views"/>
+</p>
+
 <div align="center">
 
 <!-- Row 1 -->
@@ -81,6 +86,22 @@
   height="165"
 />
 
+
+
+<p align="center">
+  <img src="https://github-profile-trophy-ruby.vercel.app/?username=shahedul-islam-joshi&theme=radical" alt="GitHub Trophies" />
+</p>
+
+
+
+
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=shahedul-islam-joshi&theme=react" alt="Shahedul Islam Joshi's Activity Graph"/>
+</p>
+
+
+
+
 <br/><br/>
 
 </div>
@@ -91,7 +112,7 @@
   <img src="https://leetcard.jacoblin.cool/shahedul-islam-joshi?theme=dark&font=Fira+Code&ext=heatmap" alt="LeetCode Stats"/>
 </p>
 
-
+<!--
 
 ## Profile Trophies
 <p align="center">
@@ -108,17 +129,15 @@
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=shahedul-islam-joshi&theme=react" alt="Shahedul Islam Joshi's Activity Graph"/>
 </p>
 
-
+-->
 
 
 <!--
 ##  Profile Views Counter
 -->
 
-##
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=shahedul-islam-joshi&color=brightgreen" alt="Profile Views"/>
-</p>
+
+
 
 
 
