@@ -89,16 +89,14 @@
 
 
 <p align="center">
-  <img src="https://github-profile-trophy-ruby.vercel.app/?username=shahedul-islam-joshi&theme=radical" alt="GitHub Trophies" />
+  <img src="./profile-assets/trophies.svg" alt="GitHub Trophies" />
 </p>
-
 
 
 
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=shahedul-islam-joshi&theme=react" alt="Shahedul Islam Joshi's Activity Graph"/>
+  <img src="./profile-assets/activity-graph.svg" alt="Shahedul Islam Joshi's Activity Graph"/>
 </p>
-
 
 
 
