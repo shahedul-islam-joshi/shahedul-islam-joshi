@@ -46,6 +46,8 @@ jobs:
           fetch_card "top-langs"            "https://github-readme-stats-fast.vercel.app/api/top-langs/?username=shahedul-islam-joshi&layout=compact&theme=radical"
           fetch_card "streak-stats"         "https://github-readme-stats-fast.vercel.app/api/streak?username=shahedul-islam-joshi&theme=radical"
           fetch_card "github-stats"         "https://github-readme-stats-fast.vercel.app/api?username=shahedul-islam-joshi&show_icons=true&theme=radical"
+          fetch_card "trophies"             "https://github-profile-trophy-ruby.vercel.app/?username=shahedul-islam-joshi&theme=radical"
+          fetch_card "activity-graph"       "https://github-readme-activity-graph.vercel.app/graph?username=shahedul-islam-joshi&theme=react"
 
       - name: Commit and push if changed
         run: |
