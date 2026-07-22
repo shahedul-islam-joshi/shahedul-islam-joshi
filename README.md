@@ -107,7 +107,7 @@
 ##  LeetCode Stats
 
 <p align="center">
-  <img src="https://leetcard.jacoblin.cool/shahedul-islam-joshi?theme=dark&font=Fira+Code&ext=heatmap" alt="LeetCode Stats"/>
+  <img src="https://leetcard.jacoblin.cool/shahedul-islam-joshi?theme=vue&font=Fira+Code&ext=heatmap" alt="LeetCode Stats"/>
 </p>
 
 <!--
@@ -383,7 +383,7 @@
 ##
 
 <p align="center">
-  <img src="https://quotes-github-readme.vercel.app/api?type=quote&theme=dark" alt="Developer Quote"/>
+  <img src="https://quotes-github-readme.vercel.app/api?type=quote&theme=nord_bright" alt="Developer Quote"/>
 </p>
 
 ---
