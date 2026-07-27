@@ -47,7 +47,7 @@
 
 
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=shahedul-islam-joshi&color=brightgreen" alt="Profile Views"/>
+  <img src="https://komarev.com/ghpvc/?username=shahedul-islam-joshi&color=brightgreen&style=plastic&color=brightgreen" alt="Profile Views"/>
 </p>
 
 <div align="center">
