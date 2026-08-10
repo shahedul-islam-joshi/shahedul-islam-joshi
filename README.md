@@ -47,7 +47,7 @@
 
 
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=shahedul-islam-joshi&color=brightgreen&style=plastic&color=brightgreen" alt="Profile Views"/>
+  <img src="https://komarev.com/ghpvc/?username=shahedul-islam-joshi&color=brightgreen&style=for-the-badge&color=brightgreen" alt="Profile Views"/>
 </p>
 
 <div align="center">
@@ -334,7 +334,7 @@
 
 -->
 
-
+<!--
 ##  Connect With Me
 
 <p align="center">
@@ -353,8 +353,112 @@
   <a href="https://medium.com/@shahedul_islam_joshi"><img src="https://img.shields.io/badge/Medium-12100E?style=for-the-badge&logo=medium&logoColor=white" alt="Medium" style="margin: 6px;"/></a>
 </p>
 
+-->
 
 
+## Connect With Me
+<p align="center">
+  <a href="https://facebook.com/islam.joshiii1133"><img src="https://img.shields.io/badge/Facebook-eceff4?style=for-the-badge&logo=facebook&logoColor=5e81ac" alt="Facebook" style="margin: 6px;"/></a>
+  <a href="https://instagram.com/shahedul_islam_joshi"><img src="https://img.shields.io/badge/Instagram-eceff4?style=for-the-badge&logo=instagram&logoColor=b48ead" alt="Instagram" style="margin: 6px;"/></a>
+  <a href="https://linkedin.com/in/shahedul-islam-joshi"><img src="https://img.shields.io/badge/LinkedIn-eceff4?style=for-the-badge&logo=linkedin&logoColor=81a1c1" alt="LinkedIn" style="margin: 6px;"/></a>
+  <a href="https://x.com/islam_joshi"><img src="https://img.shields.io/badge/X-eceff4?style=for-the-badge&logo=x&logoColor=4c566a" alt="X (Twitter)" style="margin: 6px;"/></a>
+  <a href="mailto:shahedul.islam.joshi.1710@gmail.com"><img src="https://img.shields.io/badge/Gmail-eceff4?style=for-the-badge&logo=gmail&logoColor=bf616a" alt="Gmail" style="margin: 6px;"/></a>
+</p>
+<br/>
+<p align="center">
+  <a href="https://behance.net/shahedul_islam_joshi"><img src="https://img.shields.io/badge/Behance-eceff4?style=for-the-badge&logo=behance&logoColor=8fbcbb" alt="Behance" style="margin: 6px;"/></a>
+  <a href="https://dribbble.com/shahedul_islam_joshi"><img src="https://img.shields.io/badge/Dribbble-eceff4?style=for-the-badge&logo=dribbble&logoColor=d08770" alt="Dribbble" style="margin: 6px;"/></a>
+  <a href="https://medium.com/@shahedul_islam_joshi"><img src="https://img.shields.io/badge/Medium-eceff4?style=for-the-badge&logo=medium&logoColor=a3be8c" alt="Medium" style="margin: 6px;"/></a>
+</p>
+
+
+
+
+
+
+
+<!--
+
+## Connect With Me
+<p align="center">
+  <a href="https://facebook.com/islam.joshiii1133"><img src="https://img.shields.io/badge/Facebook-ffffff?style=for-the-badge&logo=facebook&logoColor=42b883" alt="Facebook" style="margin: 6px;"/></a>
+  <a href="https://instagram.com/shahedul_islam_joshi"><img src="https://img.shields.io/badge/Instagram-ffffff?style=for-the-badge&logo=instagram&logoColor=42b883" alt="Instagram" style="margin: 6px;"/></a>
+  <a href="https://linkedin.com/in/shahedul-islam-joshi"><img src="https://img.shields.io/badge/LinkedIn-ffffff?style=for-the-badge&logo=linkedin&logoColor=42b883" alt="LinkedIn" style="margin: 6px;"/></a>
+  <a href="https://x.com/islam_joshi"><img src="https://img.shields.io/badge/X-ffffff?style=for-the-badge&logo=x&logoColor=42b883" alt="X (Twitter)" style="margin: 6px;"/></a>
+  <a href="mailto:shahedul.islam.joshi.1710@gmail.com"><img src="https://img.shields.io/badge/Gmail-ffffff?style=for-the-badge&logo=gmail&logoColor=42b883" alt="Gmail" style="margin: 6px;"/></a>
+</p>
+<br/>
+<p align="center">
+  <a href="https://behance.net/shahedul_islam_joshi"><img src="https://img.shields.io/badge/Behance-ffffff?style=for-the-badge&logo=behance&logoColor=42b883" alt="Behance" style="margin: 6px;"/></a>
+  <a href="https://dribbble.com/shahedul_islam_joshi"><img src="https://img.shields.io/badge/Dribbble-ffffff?style=for-the-badge&logo=dribbble&logoColor=42b883" alt="Dribbble" style="margin: 6px;"/></a>
+  <a href="https://medium.com/@shahedul_islam_joshi"><img src="https://img.shields.io/badge/Medium-ffffff?style=for-the-badge&logo=medium&logoColor=42b883" alt="Medium" style="margin: 6px;"/></a>
+</p>
+
+
+
+-->
+
+
+
+
+
+<!--
+
+## Connect With Me
+<p align="center">
+  <a href="https://facebook.com/islam.joshiii1133"><img src="https://img.shields.io/badge/Facebook-fdf6e3?style=for-the-badge&logo=facebook&logoColor=268bd2" alt="Facebook" style="margin: 6px;"/></a>
+  <a href="https://instagram.com/shahedul_islam_joshi"><img src="https://img.shields.io/badge/Instagram-fdf6e3?style=for-the-badge&logo=instagram&logoColor=d33682" alt="Instagram" style="margin: 6px;"/></a>
+  <a href="https://linkedin.com/in/shahedul-islam-joshi"><img src="https://img.shields.io/badge/LinkedIn-fdf6e3?style=for-the-badge&logo=linkedin&logoColor=2aa198" alt="LinkedIn" style="margin: 6px;"/></a>
+  <a href="https://x.com/islam_joshi"><img src="https://img.shields.io/badge/X-fdf6e3?style=for-the-badge&logo=x&logoColor=6c71c4" alt="X (Twitter)" style="margin: 6px;"/></a>
+  <a href="mailto:shahedul.islam.joshi.1710@gmail.com"><img src="https://img.shields.io/badge/Gmail-fdf6e3?style=for-the-badge&logo=gmail&logoColor=dc322f" alt="Gmail" style="margin: 6px;"/></a>
+</p>
+<br/>
+<p align="center">
+  <a href="https://behance.net/shahedul_islam_joshi"><img src="https://img.shields.io/badge/Behance-fdf6e3?style=for-the-badge&logo=behance&logoColor=cb4b16" alt="Behance" style="margin: 6px;"/></a>
+  <a href="https://dribbble.com/shahedul_islam_joshi"><img src="https://img.shields.io/badge/Dribbble-fdf6e3?style=for-the-badge&logo=dribbble&logoColor=b58900" alt="Dribbble" style="margin: 6px;"/></a>
+  <a href="https://medium.com/@shahedul_islam_joshi"><img src="https://img.shields.io/badge/Medium-fdf6e3?style=for-the-badge&logo=medium&logoColor=859900" alt="Medium" style="margin: 6px;"/></a>
+</p>
+
+
+-->
+
+<!--
+## Connect With Me
+<p align="center">
+  <a href="https://facebook.com/islam.joshiii1133"><img src="https://img.shields.io/badge/Facebook-3f3f3f?style=for-the-badge&logo=facebook&logoColor=8cd0d3" alt="Facebook" style="margin: 6px;"/></a>
+  <a href="https://instagram.com/shahedul_islam_joshi"><img src="https://img.shields.io/badge/Instagram-3f3f3f?style=for-the-badge&logo=instagram&logoColor=bc8cbc" alt="Instagram" style="margin: 6px;"/></a>
+  <a href="https://linkedin.com/in/shahedul-islam-joshi"><img src="https://img.shields.io/badge/LinkedIn-3f3f3f?style=for-the-badge&logo=linkedin&logoColor=88b090" alt="LinkedIn" style="margin: 6px;"/></a>
+  <a href="https://x.com/islam_joshi"><img src="https://img.shields.io/badge/X-3f3f3f?style=for-the-badge&logo=x&logoColor=9f9f9f" alt="X (Twitter)" style="margin: 6px;"/></a>
+  <a href="mailto:shahedul.islam.joshi.1710@gmail.com"><img src="https://img.shields.io/badge/Gmail-3f3f3f?style=for-the-badge&logo=gmail&logoColor=cc9393" alt="Gmail" style="margin: 6px;"/></a>
+</p>
+<br/>
+<p align="center">
+  <a href="https://behance.net/shahedul_islam_joshi"><img src="https://img.shields.io/badge/Behance-3f3f3f?style=for-the-badge&logo=behance&logoColor=dfaf8f" alt="Behance" style="margin: 6px;"/></a>
+  <a href="https://dribbble.com/shahedul_islam_joshi"><img src="https://img.shields.io/badge/Dribbble-3f3f3f?style=for-the-badge&logo=dribbble&logoColor=f0dfaf" alt="Dribbble" style="margin: 6px;"/></a>
+  <a href="https://medium.com/@shahedul_islam_joshi"><img src="https://img.shields.io/badge/Medium-3f3f3f?style=for-the-badge&logo=medium&logoColor=7f9f7f" alt="Medium" style="margin: 6px;"/></a>
+</p>
+
+
+-->
+
+<!--
+
+## Connect With Me
+<p align="center">
+  <a href="https://facebook.com/islam.joshiii1133"><img src="https://img.shields.io/badge/Facebook-282828?style=for-the-badge&logo=facebook&logoColor=83a598" alt="Facebook" style="margin: 6px;"/></a>
+  <a href="https://instagram.com/shahedul_islam_joshi"><img src="https://img.shields.io/badge/Instagram-282828?style=for-the-badge&logo=instagram&logoColor=d3869b" alt="Instagram" style="margin: 6px;"/></a>
+  <a href="https://linkedin.com/in/shahedul-islam-joshi"><img src="https://img.shields.io/badge/LinkedIn-282828?style=for-the-badge&logo=linkedin&logoColor=8ec07c" alt="LinkedIn" style="margin: 6px;"/></a>
+  <a href="https://x.com/islam_joshi"><img src="https://img.shields.io/badge/X-282828?style=for-the-badge&logo=x&logoColor=ebdbb2" alt="X (Twitter)" style="margin: 6px;"/></a>
+  <a href="mailto:shahedul.islam.joshi.1710@gmail.com"><img src="https://img.shields.io/badge/Gmail-282828?style=for-the-badge&logo=gmail&logoColor=fb4934" alt="Gmail" style="margin: 6px;"/></a>
+</p>
+<br/>
+<p align="center">
+  <a href="https://behance.net/shahedul_islam_joshi"><img src="https://img.shields.io/badge/Behance-282828?style=for-the-badge&logo=behance&logoColor=fe8019" alt="Behance" style="margin: 6px;"/></a>
+  <a href="https://dribbble.com/shahedul_islam_joshi"><img src="https://img.shields.io/badge/Dribbble-282828?style=for-the-badge&logo=dribbble&logoColor=fabd2f" alt="Dribbble" style="margin: 6px;"/></a>
+  <a href="https://medium.com/@shahedul_islam_joshi"><img src="https://img.shields.io/badge/Medium-282828?style=for-the-badge&logo=medium&logoColor=b8bb26" alt="Medium" style="margin: 6px;"/></a>
+</p>
+
+-->
 <!--
 ##  Education
 
